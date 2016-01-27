@@ -1,0 +1,96 @@
+﻿<WordLesson:LessonsList 
+	xmlns:WordLesson="clr-namespace:Hoc_tieng_Nhat_cung_Maruko.Model.Lesson.WordLesson"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<WordLesson:LessonsList.Lessons>
+		<WordLesson:Lesson ImagePath="1" LessonNumber="22">
+			<WordLesson:Lesson.LessonWords>
+				<WordLesson:VOCABULARYDB ID="33" LESSON="33" MEANING="Quisque duis vivamus nunc" TERM="Integer cras sed"/>
+				<WordLesson:VOCABULARYDB ID="18" LESSON="94" MEANING="Praesent aenean amet ante adipiscing" TERM="Curae maecenas curabitur"/>
+				<WordLesson:VOCABULARYDB ID="82" LESSON="91" MEANING="Parturient lorem mauris aliquet" TERM="Phasellus aliquam donec etiam fusce"/>
+				<WordLesson:VOCABULARYDB ID="35" LESSON="84" MEANING="Bibendum dictumst morbi" TERM="Accumsan consequat vestibulum"/>
+				<WordLesson:VOCABULARYDB ID="91" LESSON="94" MEANING="Blandit diam nulla elementum" TERM="Eleifend dis arcu convallis dignissim"/>
+			</WordLesson:Lesson.LessonWords>
+		</WordLesson:Lesson>
+		<WordLesson:Lesson ImagePath="2" LessonNumber="33">
+			<WordLesson:Lesson.LessonWords>
+				<WordLesson:VOCABULARYDB ID="91" LESSON="23" MEANING="Augue eget elit" TERM="Hac leo proin commodo"/>
+				<WordLesson:VOCABULARYDB ID="33" LESSON="12" MEANING="Fames enim fringilla cubilia" TERM="Conubia fermentum habitant dolor"/>
+				<WordLesson:VOCABULARYDB ID="75" LESSON="43" MEANING="Ipsum mus egestas erat justo" TERM="Habitasse felis inceptos dapibus interdum"/>
+				<WordLesson:VOCABULARYDB ID="37" LESSON="72" MEANING="Lobortis feugiat lorem nibh" TERM="Nullam lacus euismod eros aptent"/>
+				<WordLesson:VOCABULARYDB ID="98" LESSON="88" MEANING="Congue massa" TERM="Magna auctor"/>
+			</WordLesson:Lesson.LessonWords>
+		</WordLesson:Lesson>
+		<WordLesson:Lesson ImagePath="3" LessonNumber="12">
+			<WordLesson:Lesson.LessonWords>
+				<WordLesson:VOCABULARYDB ID="24" LESSON="10" MEANING="Hendrerit pharetra" TERM="Vestibulum dictum adipiscing lacinia laoreet"/>
+				<WordLesson:VOCABULARYDB ID="48" LESSON="89" MEANING="Metus nec" TERM="Natoque posuere parturient"/>
+				<WordLesson:VOCABULARYDB ID="77" LESSON="31" MEANING="Potenti non nisi" TERM="Himenaeos vestibulum"/>
+				<WordLesson:VOCABULARYDB ID="60" LESSON="24" MEANING="Lectus libero" TERM="Vestibulum adipiscing pretium"/>
+				<WordLesson:VOCABULARYDB ID="92" LESSON="63" MEANING="Per vestibulum ligula sed" TERM="Parturient placerat"/>
+			</WordLesson:Lesson.LessonWords>
+		</WordLesson:Lesson>
+		<WordLesson:Lesson ImagePath="4" LessonNumber="11">
+			<WordLesson:Lesson.LessonWords>
+				<WordLesson:VOCABULARYDB ID="67" LESSON="45" MEANING="Nam morbi" TERM="Vel rhoncus nisl"/>
+				<WordLesson:VOCABULARYDB ID="89" LESSON="90" MEANING="Luctus penatibus" TERM="Imperdiet malesuada"/>
+				<WordLesson:VOCABULARYDB ID="25" LESSON="66" MEANING="Magnis mattis parturient mauris sed" TERM="Sodales adipiscing porttitor nunc odio"/>
+				<WordLesson:VOCABULARYDB ID="90" LESSON="72" MEANING="Neque aliquam integer orci mollis" TERM="Pulvinar viverra vestibulum"/>
+				<WordLesson:VOCABULARYDB ID="33" LESSON="72" MEANING="Vivamus tincIDunt quam vestibulum" TERM="Quisque netus sagittis pede"/>
+			</WordLesson:Lesson.LessonWords>
+		</WordLesson:Lesson>
+		<WordLesson:Lesson ImagePath="5" LessonNumber="25">
+			<WordLesson:Lesson.LessonWords>
+				<WordLesson:VOCABULARYDB ID="48" LESSON="25" MEANING="Sociosqu ultricies platea" TERM="Dis ornare"/>
+				<WordLesson:VOCABULARYDB ID="97" LESSON="28" MEANING="Cras adipiscing parturient" TERM="Urna primis venenatis rutrum est"/>
+				<WordLesson:VOCABULARYDB ID="84" LESSON="31" MEANING="Duis nulla suscipit" TERM="Sapien aliquam"/>
+				<WordLesson:VOCABULARYDB ID="84" LESSON="36" MEANING="Amet semper sociis" TERM="Aliquet hac porta purus nunc"/>
+				<WordLesson:VOCABULARYDB ID="33" LESSON="26" MEANING="Taciti blandit ultrices vehicula" TERM="Vestibulum leo risus velit torquent"/>
+			</WordLesson:Lesson.LessonWords>
+		</WordLesson:Lesson>
+		<WordLesson:Lesson ImagePath="6" LessonNumber="34">
+			<WordLesson:Lesson.LessonWords>
+				<WordLesson:VOCABULARYDB ID="30" LESSON="18" MEANING="Class tempor diam commodo tempus" TERM="Nec vitae volutpat maecenas arcu"/>
+				<WordLesson:VOCABULARYDB ID="18" LESSON="56" MEANING="Vulputate non vestibulum bibendum" TERM="Praesent accumsan"/>
+				<WordLesson:VOCABULARYDB ID="92" LESSON="23" MEANING="Adipiscing eget turpis varius" TERM="Per curabitur curae conubia tortor"/>
+				<WordLesson:VOCABULARYDB ID="14" LESSON="33" MEANING="Dictumst donec" TERM="Elit aenean"/>
+				<WordLesson:VOCABULARYDB ID="77" LESSON="12" MEANING="Vestibulum eleifend etiam" TERM="Enim phasellus mauris parturient"/>
+			</WordLesson:Lesson.LessonWords>
+		</WordLesson:Lesson>
+		<WordLesson:Lesson ImagePath="7" LessonNumber="69">
+			<WordLesson:Lesson.LessonWords>
+				<WordLesson:VOCABULARYDB ID="89" LESSON="56" MEANING="Cubilia lorem" TERM="Erat consequat faucibus eros convallis"/>
+				<WordLesson:VOCABULARYDB ID="88" LESSON="22" MEANING="Vestibulum inceptos adipiscing dignissim" TERM="Dapibus nullam habitant egestas"/>
+				<WordLesson:VOCABULARYDB ID="84" LESSON="28" MEANING="Morbi nisi" TERM="Interdum parturient nibh sed"/>
+				<WordLesson:VOCABULARYDB ID="70" LESSON="81" MEANING="Lobortis elementum" TERM="Vestibulum vestibulum"/>
+				<WordLesson:VOCABULARYDB ID="35" LESSON="64" MEANING="Nascetur adipiscing auctor" TERM="Aptent euismod nisl"/>
+			</WordLesson:Lesson.LessonWords>
+		</WordLesson:Lesson>
+		<WordLesson:Lesson ImagePath="8" LessonNumber="40">
+			<WordLesson:Lesson.LessonWords>
+				<WordLesson:VOCABULARYDB ID="99" LESSON="62" MEANING="Parturient pulvinar" TERM="Facilisis proin sem placerat sit"/>
+				<WordLesson:VOCABULARYDB ID="32" LESSON="92" MEANING="Dictum gravIDa" TERM="Sagittis nunc"/>
+				<WordLesson:VOCABULARYDB ID="59" LESSON="47" MEANING="Odio nam iaculis" TERM="Fermentum senectus augue vel lectus"/>
+				<WordLesson:VOCABULARYDB ID="39" LESSON="39" MEANING="Vestibulum dolor libero" TERM="Orci vestibulum"/>
+				<WordLesson:VOCABULARYDB ID="65" LESSON="39" MEANING="Vestibulum ligula litora felis" TERM="Adipiscing sed parturient lacinia fames"/>
+			</WordLesson:Lesson.LessonWords>
+		</WordLesson:Lesson>
+		<WordLesson:Lesson ImagePath="9" LessonNumber="85">
+			<WordLesson:Lesson.LessonWords>
+				<WordLesson:VOCABULARYDB ID="42" LESSON="24" MEANING="Lorem vestibulum" TERM="Pede justo lacus quam laoreet"/>
+				<WordLesson:VOCABULARYDB ID="80" LESSON="82" MEANING="Hendrerit adipiscing magnis mattis suscipit" TERM="Habitasse natoque magna"/>
+				<WordLesson:VOCABULARYDB ID="69" LESSON="74" MEANING="Parturient vestibulum" TERM="Mauris mollis"/>
+				<WordLesson:VOCABULARYDB ID="77" LESSON="68" MEANING="Montes massa leo mus posuere" TERM="Torquent ultrices vestibulum est hac"/>
+				<WordLesson:VOCABULARYDB ID="10" LESSON="95" MEANING="Himenaeos imperdiet neque malesuada penatibus" TERM="Metus potenti morbi nostra"/>
+			</WordLesson:Lesson.LessonWords>
+		</WordLesson:Lesson>
+		<WordLesson:Lesson ImagePath="10" LessonNumber="22">
+			<WordLesson:Lesson.LessonWords>
+				<WordLesson:VOCABULARYDB ID="78" LESSON="35" MEANING="Primis non vehicula" TERM="Quis rhoncus sodales porttitor platea"/>
+				<WordLesson:VOCABULARYDB ID="51" LESSON="40" MEANING="Volutpat urna nulla porta" TERM="TincIDunt adipiscing tristique ultricies netus"/>
+				<WordLesson:VOCABULARYDB ID="71" LESSON="46" MEANING="Duis risus vulputate viverra rutrum" TERM="Maecenas cras purus venenatis"/>
+				<WordLesson:VOCABULARYDB ID="66" LESSON="66" MEANING="Accumsan quisque" TERM="Praesent aliquam sapien integer"/>
+				<WordLesson:VOCABULARYDB ID="52" LESSON="90" MEANING="Sociis velit per" TERM="Curabitur nunc vivamus semper"/>
+			</WordLesson:Lesson.LessonWords>
+		</WordLesson:Lesson>
+	</WordLesson:LessonsList.Lessons>
+</WordLesson:LessonsList>

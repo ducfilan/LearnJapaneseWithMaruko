@@ -1,0 +1,358 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Hoc_tieng_Nhat_cung_Maruko.View.WordSection.WordListOfALesson"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:googleAds="clr-namespace:GoogleAds;assembly=GoogleAds"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    d:DataContext="{d:DesignData /SampleData/LessonSampleData.xaml}"
+    shell:SystemTray.IsVisible="True"
+    Style="{StaticResource TransitionPageStyle}">
+    <phone:PhoneApplicationPage.Resources>
+        <DataTemplate x:Key="DataTemplateListWords">
+            <RadioButton Padding="15 0 " GroupName="A" Style="{StaticResource PhoneRadioButtonCheckBoxBase}" >
+                <Grid>
+                    <toolkit:GestureService.GestureListener>
+                        <toolkit:GestureListener Hold="TapAndHoldGesture" />
+                    </toolkit:GestureService.GestureListener>
+
+                    <Rectangle Fill="#ABB7B7"
+                           Margin="18, 5, 0, -8"
+                           Width="460"
+                           Height="Auto"
+                           Opacity="0.8"/>
+
+                    <Grid Background="#FFFFFF"
+                          Margin="10, 0, 8, 0"
+                          Height="Auto">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="{Binding TERM}" 
+                                   Style="{StaticResource StyleTextBlockDark}"
+                                   Margin="10"
+                                   VerticalAlignment="Center"
+                                   Height="Auto"
+                                   HorizontalAlignment="Center"/>
+
+                        <Rectangle Grid.Column="1" Width="1"
+                               Height="80"
+                               Fill="#F9BF3A"
+                               RadiusX="1"
+                               RadiusY="50" />
+
+                        <TextBlock Grid.Column="2" Text="{Binding MEANING}"
+                                   Style="{StaticResource StyleTextBlockDark}"
+                                   Margin="10"
+                                   Height="Auto"
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Center"/>
+
+                        <Grid Grid.Column="0" x:Name="HideBoardGrid"
+                            Opacity="0">
+                            <Rectangle
+                               Fill="#FFFFFF"/>
+
+                            <TextBlock
+                               Text="Chạm để xem từ nhé."
+                               Style="{StaticResource StyleTextBlockDark}"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center"/>
+                        </Grid>
+
+                    </Grid>
+
+                </Grid>
+            </RadioButton>
+        </DataTemplate>
+    </phone:PhoneApplicationPage.Resources>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="#E87E04">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel>
+            <StackPanel Margin="0"
+                    Background="#26C281" 
+                    Orientation="Horizontal">
+                <TextBlock Text="Bài " Margin="18, 0, 0, 0" Style="{StaticResource PhoneTextTitle1Style}"
+                       VerticalAlignment="Center"
+                       FontFamily="{StaticResource PhoneFontFamilyLight}"/>
+
+                <TextBlock Text="{Binding LessonNumber}" Margin="0" Style="{StaticResource PhoneTextTitle1Style}"
+                       VerticalAlignment="Center"
+                       x:Name="TextBlockLessonNo"
+                       FontFamily="{StaticResource PhoneFontFamilyLight}"/>
+            </StackPanel>
+            <Image Source="/Assets/UIImages/shadow.png"
+               Margin="0, -8"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <phone:Pivot Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                     HeaderTemplate="{StaticResource PivotHeaderNormalTemplate}"
+                     x:Name="PivotWordLesson"
+                     Margin="0, -25" SelectionChanged="Pivot_SelectionChanged">
+            <phone:PivotItem CacheMode="BitmapCache" Header="tất cả từ mới" Margin="12,0"
+                             x:Name="PivotItemAllWords">
+                <Grid x:Name="ContentPanel" Margin="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <phone:LongListSelector x:Name="LongListSelectorWords" 
+                                    ItemTemplate="{StaticResource DataTemplateListWords}"
+                                    ItemsSource="{Binding LessonWords}" SelectionChanged="LongListSelectorWords_SelectionChanged" />
+
+                    <googleAds:AdView Grid.Row="1" AdUnitID="ca-app-pub-8747599647097873/8319581345"
+                                      Format="Banner"
+                                      ReceivedAd="OnAdReceived"
+                                      FailedToReceiveAd="OnFailedToReceiveAd"
+                                      VerticalAlignment="Bottom"
+                                      Margin="-10 0 -10 28"/>
+                    <Grid Grid.Row="0" HorizontalAlignment="Stretch"
+                          Margin="-15, -1500, -15, 0"
+                          x:Name="GridGuideUser"
+                          Tap="GridGuideUser_OnTap"
+                          Visibility="Collapsed">
+                        <Grid.Background>
+                            <SolidColorBrush Color="Black"
+                                             Opacity="0.5" />
+                        </Grid.Background>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image Source="/Assets/UIImages/Maruko/thinking.png" 
+                                           Height="200"
+                                           x:Name="ImageMarukoGuide"
+                                           VerticalAlignment="Bottom"
+                                           HorizontalAlignment="Right"
+                                           Margin="0"
+                                           RenderTransformOrigin="0.5, 0.5">
+                            <Image.RenderTransform >
+                                <ScaleTransform ScaleX="-1"></ScaleTransform>
+                            </Image.RenderTransform>
+                        </Image>
+
+                        <Border Grid.Column="1"
+                                        Width="200"
+                                        Height="104"
+                                        Margin="-30, 0, 0, 120"
+                                        VerticalAlignment="Bottom"
+                                        HorizontalAlignment="Left">
+                            <Border.Background>
+                                <ImageBrush ImageSource="/Assets/UIImages/speech bubble color.png" />
+                            </Border.Background>
+                            <TextBlock Text="Ấn và giữ vào từ để nghe phát âm bạn nhé!" 
+                                               Width="150"
+                                               x:Name="TextBlockMarukoGuideSpeech"
+                                               Style="{StaticResource StyleTextBlockLight}"
+                                               Margin="12, 15, -12, 0"/>
+                        </Border>
+                    </Grid>
+                </Grid>
+            </phone:PivotItem>
+            <phone:PivotItem CacheMode="BitmapCache" Header="kiểm tra"
+                             x:Name="PivotItemTest">
+                <Grid>
+                    <Grid Margin="0, -20, 0, 0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="200"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Border Grid.Row="0" Margin="0, 0, 0, 0"
+                                Background="#D91E17"
+                                Width="130" Height="30"
+                                HorizontalAlignment="Left"
+                                VerticalAlignment="Top">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Câu hỏi: " Margin="15, 0, 0, 0"
+                                           Style="{StaticResource StyleTextBlockLight}"
+                                           VerticalAlignment="Center"/>
+                                <TextBlock Text="AA" x:Name="TextBlockQuestionNumber" 
+                                           Style="{StaticResource StyleTextBlockLight}"
+                                           VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </Border>
+                        <Border Grid.Row="1" Background="#FFFFFF">
+                            <TextBlock Name="txtQuestionImages"
+                                    Text="{Binding Term}"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Style="{StaticResource StyleTextBlockDark}"
+                                    FontSize="{StaticResource PhoneFontSizeExtraLarge}"/>
+                        </Border>
+
+                        <Grid Grid.Row="2" x:Name="GridAnswers"
+                          Margin="20">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+
+                            <Border x:Name="brA" Margin="5"
+                                     Tap="btnAAnswer_OnTap"
+                                Background="#36D7B6">
+                                <StackPanel Orientation="Horizontal">
+
+                                    <TextBlock HorizontalAlignment="Center"
+                                         Name="btnAAnswer"
+                                        
+                                           VerticalAlignment="Center"
+                                           Margin="10"/>
+                                </StackPanel>
+                            </Border>
+                            <Border Name="brB"  Grid.Row="1" Margin="5"
+                                     Tap="btnBAnswer_OnTap"
+                                Background="#36D7B6" >
+                                <StackPanel Orientation="Horizontal">
+
+                                    <TextBlock 
+                                        Name="btnBAnswer"
+                                        
+                                           VerticalAlignment="Center"
+                                           Margin="10"/>
+                                </StackPanel>
+                            </Border>
+                            <Border Name="brC" Grid.Row="2" Margin="5"
+                                     Tap="btnCAnswer_OnTap"
+                                Background="#36D7B6">
+                                <StackPanel Orientation="Horizontal">
+
+                                    <TextBlock
+                                        Name="btnCAnswer"
+                                         
+                                           VerticalAlignment="Center"
+                                           Margin="10"/>
+                                </StackPanel>
+                            </Border>
+                            <Border Name="brD" Grid.Row="3" Margin="5"
+                                    Tap="btnDAnswer_OnTap"
+                                Background="#36D7B6">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock  
+                                        Name="btnDAnswer"
+                                       
+                                           VerticalAlignment="Center"
+                                           Margin="10"/>
+                                </StackPanel>
+                            </Border>
+                        </Grid>
+
+                        <!--TitlePanel contains the name of the application and page title-->
+                        <StackPanel x:Name="TitlePanelTrailers" Grid.Row="4" Margin="0,-18,0,20" Orientation="Horizontal">
+                            <TextBlock Height="50" HorizontalAlignment="Left" Name="txtCorrectImages" Text="Correct: " VerticalAlignment="Top" Width="200" TextAlignment="Center" FontSize="20" TextWrapping="Wrap" />
+                            <TextBlock Height="50" Name="txtTimerImages" Text="Time Left:" Width="200" TextAlignment="Center" FontSize="20" TextWrapping="Wrap" />
+                        </StackPanel>
+
+
+                    </Grid>
+
+                    <Border x:Name="BorderWrapTest" 
+                            Background="#E87E04" Margin="0, -30">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="100" />
+                                <RowDefinition Height="320" />
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Border Background="White">
+                                <TextBlock Text="Bạn có thể kiểm tra 0 câu hỏi!"
+                                        HorizontalAlignment="Center"
+                                        FontSize="30"
+                                           Style="{StaticResource StyleTextBlockDark}"
+                                        Name="txtTotal"
+                                        VerticalAlignment="Center"
+                                        Margin="10"/>
+                            </Border>
+
+                            <Grid  Grid.Row="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+
+                                <StackPanel Orientation="Horizontal">
+                                    <RadioButton Content="Theo từ" IsChecked="true" Click="tu_Click"/>
+                                    <RadioButton Content="Theo nghĩa " Click="nghia_Click"/>
+                                </StackPanel>
+
+                                <Grid Grid.Row="1" HorizontalAlignment="Center">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="/Assets/UIImages/Maruko/nhaycovu.png" 
+                                           Height="200"
+                                           x:Name="ImageMarukoTest"
+                                           VerticalAlignment="Bottom"
+                                           HorizontalAlignment="Right"
+                                           Margin="0"
+                                           RenderTransformOrigin="0.5, 0.5">
+                                        <Image.RenderTransform >
+                                            <ScaleTransform ScaleX="-1"></ScaleTransform>
+                                        </Image.RenderTransform>
+                                    </Image>
+
+                                    <Border Grid.Column="1"
+                                        Width="200"
+                                        Height="104"
+                                        Margin="-30, 0, 0, 120"
+                                        HorizontalAlignment="Left">
+                                        <Border.Background>
+                                            <ImageBrush ImageSource="/Assets/UIImages/speech bubble.png" />
+                                        </Border.Background>
+                                        <TextBlock Text="Cố gắng đạt kết quả cao bạn nhé! 頑張ってよ！" 
+                                               Width="150"
+                                               x:Name="TextBlockMarukoTalk"
+                                               Style="{StaticResource StyleTextBlockDark}"
+                                               Margin="12, 15, -12, 0"/>
+                                    </Border>
+                                </Grid>
+                            </Grid>
+
+                            <Button Grid.Row="2" Content="BẮT ĐẦU" 
+                                    x:Name="ButtonStartTest"
+                                    Style="{StaticResource StyleButtonDanger}"
+                                    Width="250" Height="100"
+                                    VerticalAlignment="Bottom"
+                                    Tap="ButtonStartTest_OnTap"/>
+                        </Grid>
+                    </Border>
+
+                </Grid>
+
+            </phone:PivotItem>
+        </phone:Pivot>
+    </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" x:Name="WordBar" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Assets/UIImages/AppBar/hidejap.png" x:Name="HideJapButton" Click="HideJapanese" Text="ẩn Nhật"/>
+            <shell:ApplicationBarIconButton IconUri="/Assets/UIImages/AppBar/showall.png" x:Name="ShowAllButton" Click="ShowAll" Text="hiện hết"/>
+            <shell:ApplicationBarIconButton IconUri="/Assets/UIImages/AppBar/hidevie.png" x:Name="HideVieButton" Click="HideVietnamese" Text="ẩn Việt"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+
+</phone:PhoneApplicationPage>

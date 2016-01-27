@@ -1,0 +1,280 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Hoc_tieng_Nhat_cung_Maruko.View.KanjiSection.KanjisListView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:telerikPrimitives="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Primitives"
+    xmlns:telerik="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Core"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    d:DataContext="{d:DesignData SampleData/KanjiToLearnListSampleData.xaml}"
+    shell:SystemTray.IsVisible="False">
+
+    <phone:PhoneApplicationPage.Resources>
+        <DataTemplate x:Key="DataTemplateListWords">
+            <Grid Background="#FFFFFF"
+                  Margin="0 0 0 15"
+                      Tap="Grid_Tap">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="220" />
+                </Grid.ColumnDefinitions>
+
+                <Border Background="#FFFFFF">
+                    <TextBlock Text="{Binding TERM}" 
+                               Style="{StaticResource StyleTextBlockDark}"
+                               FontFamily="{StaticResource PhoneFontFamilyNormal}"
+                               FontSize="{StaticResource PhoneFontSizeExtraExtraLarge}"
+                               Margin="10"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center" />
+                </Border>
+
+                <Rectangle Grid.Column="1" Width="1"
+                               Fill="#F9BF3A"
+                               Margin="0, 15, 0, 15"
+                               RadiusX="1"
+                               RadiusY="100" />
+
+                <StackPanel Grid.Column="2"
+                                Orientation="Vertical">
+                    <TextBlock Text="{Binding MEANING}"
+                               Style="{StaticResource StyleTextBlockDark}"
+                               Margin="8"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center"/>
+                    <Rectangle Margin="10, 0, 10, 0"
+                                   Height="1"
+                                   Fill="#2D3E50"/>
+                    <TextBlock Text="{Binding ONSOUND}"
+                                   Style="{StaticResource StyleTextBlockDark}"
+                                   Margin="8"
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Center"/>
+                    <Rectangle Margin="10, 0, 10, 0"
+                                   Height="1"
+                                   Fill="#2D3E50"/>
+                    <TextBlock Text="{Binding KUNSOUND}"
+                                   Style="{StaticResource StyleTextBlockDark}"
+                                   Margin="8"
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Center"/>
+                    <Rectangle Margin="10, 0, 10, 0"
+                                   Height="1"
+                                   Fill="#2D3E50"/>
+                    <TextBlock Text="{Binding EXAMPLES}"
+                                   Style="{StaticResource StyleTextBlockDark}"
+                                   Margin="8"
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Center"/>
+                </StackPanel>
+
+                <Rectangle Grid.Column="2"
+                               Fill="#FFFFFF"
+                               Visibility="Collapsed"/>
+
+                <TextBlock Grid.Column="2"
+                               Text="Chạm để xem nghĩa nhé."
+                               Style="{StaticResource StyleTextBlockDark}"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center"
+                               Visibility="Collapsed"/>
+
+                <Grid Grid.Column="0" x:Name="GridKanjiDrawing"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Center"
+                        
+                            Background="#3598DB"
+                            Opacity="0"
+                            Margin="0, 0, 0, 0">
+                    <!-- Paths go here -->
+
+                </Grid>
+            </Grid>
+        </DataTemplate>
+    </phone:PhoneApplicationPage.Resources>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="#E87E04">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="0"
+                    Background="#26C281" 
+                    Orientation="Horizontal">
+            <TextBlock Text="Cùng học Kanji" Margin="18, -5, 0, 5" Style="{StaticResource PhoneTextTitle1Style}"
+                       VerticalAlignment="Center"
+                       FontFamily="{StaticResource PhoneFontFamilyLight}"/>
+        </StackPanel>
+
+        <Image Grid.Row="1" Source="/Assets/UIImages/shadow.png"
+               Margin="0, -8"/>
+
+        <!--ContentPanel - place additional content here-->
+        <phone:Pivot Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                     HeaderTemplate="{StaticResource PivotHeaderNormalTemplate}"
+                     SelectionChanged="Pivot_SelectionChanged"
+                     x:Name="PivotWordLesson"
+                     Margin="0, -20">
+            <phone:PivotItem CacheMode="BitmapCache" Header="trình độ N5" Margin="12,0"
+                             x:Name="PivotItemAllWords">
+
+                <Grid x:Name="GridDictionary" 
+                      Margin="0, 0, 10, 0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="70" />
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <!-- Type textbox -->
+                    <Grid Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                          Margin="0, 0, -10, 0">
+                        <TextBox 
+						    x:Name="TextBoxSearchKanji"
+						    HorizontalAlignment="Stretch" 
+						    VerticalAlignment="Stretch"
+						    TextWrapping="Wrap" 
+						    Margin="0, 0, 13, 0" TextChanged="TextBoxSearchKanji_TextChanged" />
+                        <Border Background="#36D7B6"
+                                Height="46" Width="50"  
+                                Margin="0 0 25 0"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Center"
+                                Tap="ClearButton_Click">
+                            <Button>
+                                <Button.Template>
+                                    <ControlTemplate>
+                                        <TextBlock FontSize="25" Foreground="#FFFFFF"
+                                                   FontWeight="Black" Text="X"
+                                                   HorizontalAlignment="Center"
+                                                   VerticalAlignment="Center"/>
+                                    </ControlTemplate>
+                                </Button.Template>
+                            </Button>
+                        </Border>
+                    </Grid>
+
+                    <!-- Kanji list -->
+
+                    <telerikPrimitives:RadDataBoundListBox 
+                        Grid.Row="1"
+                        Margin="{StaticResource PhoneHorizontalMargin}" 
+                        IsCheckModeActiveChanged="ListAllKanjis_OnIsCheckModeActiveChanged"
+                        x:Name="ListAllKanjis"
+                        ItemTemplate="{StaticResource DataTemplateListWords}"
+                        ItemCheckedStateChanged="ListAllKanjis_OnItemCheckedStateChanged"/>
+                    <!--<toolkit:LongListMultiSelector Grid.Row="1"
+                                                   x:Name="LongListMultiSelectorAllWords" 
+                                                   LayoutMode="Grid"
+                                                   ItemsSource="{Binding KanjiToLearnsList}"
+                                                   IsSelectionEnabledChanged="OnGridSelectorIsSelectionEnabledChanged"
+                                                   SelectionChanged="OnGridSelectorSelectionChanged"
+                                                   GridCellSize="435,220"
+                                                   ItemTemplate="{StaticResource DataTemplateListWords}">
+                    </toolkit:LongListMultiSelector>-->
+                </Grid>
+            </phone:PivotItem>
+            <phone:PivotItem CacheMode="BitmapCache" Header="đang học"
+                             x:Name="PivotItemLearningKanjisLists">
+                <Grid>
+                    <TextBlock x:Name="TextBlockEmptyTemplate" 
+                               VerticalAlignment="Top"
+                               HorizontalAlignment="Center"
+                               Style="{StaticResource StyleTextBlockLight}"
+                               FontSize="{StaticResource PhoneFontSizeLarge}"
+                               Text="Chưa thêm bài học! Để thêm từ vào danh sách đang học, 
+                               bạn vào phần tất cả chữ, ấn vào biểu tượng Chọn (đáy trang), 
+                               sau đó tích vào các từ cần học rồi ấn nút Thêm ở dưới đáy trang."
+                               Margin="10"
+                               Visibility="Collapsed"/>
+                    <toolkit:LongListMultiSelector x:Name="LongListMultiSelectorLearningWords" 
+                                                   IsSelectionEnabledChanged="OnLearningwordSelector_IsSelectionEnabledChanged"
+                                                   SelectionChanged="OnLearningwordSelector_SelectionChanged"
+                                                   ItemTemplate="{StaticResource DataTemplateListWords}"
+                                                   ItemsSource="{Binding KanjiToLearnsList}" />
+                </Grid>
+
+            </phone:PivotItem>
+
+            <phone:PivotItem CacheMode="BitmapCache" Header="kiểm tra"
+                             x:Name="PivotItemTest">
+                <Border x:Name="BorderWrapTest" 
+                            Background="#E87E04" Margin="0, -30">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="100" />
+                            <RowDefinition Height="320" />
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" Height="40" Margin="0 20 0 0" HorizontalAlignment="Center" Name="textBlock1" Text="30/50 câu hỏi" VerticalAlignment="Top" Foreground="AliceBlue" FontSize="25" FontFamily="Segoe WP" FontWeight="Thin" />
+                        <Slider Grid.Row="0" Margin="-40" Value="100" Minimum ="10" Maximum="100"  Height="84" HorizontalAlignment="Center"  Name="slider1" VerticalAlignment="Bottom" ValueChanged="slider1_ValueChanged" Width="434" />
+
+                        <Grid  Grid.Row="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <StackPanel Orientation="Horizontal">
+                                <RadioButton Content="Theo Hán tự" IsChecked="true" Name="RbKanjiButton"/>
+                                <RadioButton Content="Theo nghĩa Hán Việt" Name="RbHanvietButton"/>
+                            </StackPanel>
+
+                            <Grid Grid.Row="1" HorizontalAlignment="Center">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Image Source="/Assets/UIImages/Maruko/nhaycovu.png" 
+                                           Height="200"
+                                           x:Name="ImageMarukoTest"
+                                           VerticalAlignment="Bottom"
+                                           HorizontalAlignment="Right"
+                                           Margin="0"
+                                           RenderTransformOrigin="0.5, 0.5">
+                                    <Image.RenderTransform >
+                                        <ScaleTransform ScaleX="-1"></ScaleTransform>
+                                    </Image.RenderTransform>
+                                </Image>
+
+                                <Border Grid.Column="1"
+                                        Width="200"
+                                        Height="104"
+                                        Margin="-30, 0, 0, 120"
+                                        HorizontalAlignment="Left">
+                                    <Border.Background>
+                                        <ImageBrush ImageSource="/Assets/UIImages/speech bubble.png" />
+                                    </Border.Background>
+                                    <TextBlock Text="Cố gắng đạt kết quả cao bạn nhé! 頑張ってよ！" 
+                                               Width="150"
+                                               x:Name="TextBlockMarukoTalk"
+                                               Style="{StaticResource StyleTextBlockDark}"
+                                               Margin="12, 15, -12, 0"/>
+                                </Border>
+                            </Grid>
+                        </Grid>
+
+                        <Button Grid.Row="2" Content="BẮT ĐẦU" 
+                                    x:Name="ButtonStartTest"
+                                    Style="{StaticResource StyleButtonDanger}"
+                                    Width="250" Height="100"
+                                    VerticalAlignment="Bottom"
+                                    Tap="ButtonStartTest_OnTap"/>
+                    </Grid>
+                </Border>
+            </phone:PivotItem>
+
+        </phone:Pivot>
+    </Grid>
+</phone:PhoneApplicationPage>

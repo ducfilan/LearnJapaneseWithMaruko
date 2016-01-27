@@ -1,0 +1,361 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:local="clr-namespace:Hoc_tieng_Nhat_cung_Maruko.AddtionalHelpers.TemplateSelectorHelper"
+    x:Class="Hoc_tieng_Nhat_cung_Maruko.View.UserControls.Conversation"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:converters="clr-namespace:Hoc_tieng_Nhat_cung_Maruko.AddtionalHelpers.Converters"
+    xmlns:telerikData="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Data"
+    xmlns:primitives="clr-namespace:Telerik.Windows.Controls.Primitives;assembly=Telerik.Windows.Controls.Primitives"
+    xmlns:telerikPrimitives="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Primitives"
+    xmlns:phoneTextBox="clr-namespace:Telerik.Windows.Controls.PhoneTextBox;assembly=Telerik.Windows.Controls.Primitives"
+    mc:Ignorable="d"
+    d:DataContext="{d:DesignData /SampleData/MessageGroupSampleData.xaml}">
+
+    <UserControl.Resources>
+        <converters:ChatAvatarConverter x:Key="ChatAvatarConverter"/>
+        
+        <!--<DataTemplate x:Key="SenderSideTemplate">
+            <Grid HorizontalAlignment="Stretch" 
+                  VerticalAlignment="Stretch"
+                  Margin="0, 3, 0, 3">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="16"/>
+                    <ColumnDefinition Width="70"/>
+                </Grid.ColumnDefinitions>
+
+                <Rectangle  HorizontalAlignment="Stretch" 
+                            VerticalAlignment="Stretch" 
+                            Margin="50, 0, 0, 0"
+                            Fill="{StaticResource PhoneAccentBrush}" />
+
+                <Rectangle Grid.Column="0"
+                           Height="3"
+                           HorizontalAlignment="Stretch"
+                           VerticalAlignment="Bottom"
+                           Margin="50, 0, 0, 0"
+                           Fill="#26C281" />
+
+                <TextBlock  Grid.Column="0" 
+                            HorizontalAlignment="Stretch" 
+                            VerticalAlignment="Top" 
+                            Margin="60, 10, 10, 10"
+							TextWrapping="Wrap" 
+							Text="{Binding MessageText}" 
+							TextOptions.TextHintingMode="Animated" />
+
+                <Polyline Points="0,0 16,0 0,16 0,0"
+                          StrokeThickness="0"
+                          Fill="{StaticResource PhoneAccentBrush}"
+                          HorizontalAlignment="Right"
+                          Grid.Column="1" 
+                          Margin="0,10,0,0" />
+
+                <Ellipse Grid.Column="2"
+                            Width="60"
+                            Height="60"
+                            Margin="10,0,0,0"
+                            VerticalAlignment="Top" 
+                            HorizontalAlignment="Right">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="{Binding SenderSide, Converter={StaticResource ChatAvatarConverter}}"/>
+                    </Ellipse.Fill>
+                </Ellipse>
+            </Grid>
+        </DataTemplate>
+
+        <DataTemplate x:Key="ReceiverSideTemplate">
+            <Grid HorizontalAlignment="Stretch" 
+                  VerticalAlignment="Stretch"
+                  Margin="0,3,0,3">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition Width="16"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Ellipse Grid.Column="0" Fill="WhiteSmoke" 
+                            Width="60"
+                            Height="60"
+                            Margin="0,0,10,0"
+                            VerticalAlignment="Top"/>
+                
+                <Ellipse Grid.Column="0"
+                            Width="60"
+                            Height="60"
+                            Margin="0,0,10,0"
+                            VerticalAlignment="Top">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="/Assets/UIImages/Maruko/phone.png"/>
+                    </Ellipse.Fill>
+                </Ellipse>
+
+                <Polyline Points="0,0 16,0 16,16 0,0"
+                          StrokeThickness="0"
+                          Fill="LightGray"
+                          HorizontalAlignment="Left"
+                          VerticalAlignment="Top"
+                          Grid.Column="1"
+                          Margin="0,10,0,0" />
+
+                <Rectangle  Grid.Column="2"
+                            HorizontalAlignment="Stretch" 
+                            VerticalAlignment="Stretch" 
+                            Margin="0, 0, 50, 0"
+                            Fill="LightGray" />
+
+                <Rectangle Grid.Column="2"
+                           Height="3"
+                           HorizontalAlignment="Stretch"
+                           VerticalAlignment="Bottom"
+                           Margin="0, 0, 50, 0"
+                           Fill="#F96A0E" />
+
+                <TextBlock  Grid.Column="2" 
+                            HorizontalAlignment="Stretch" 
+                            VerticalAlignment="Top" 
+                            Margin="10, 10, 60, 10"
+						    TextWrapping="Wrap" 
+						    Text="{Binding MessageText}" 
+						    TextOptions.TextHintingMode="Animated" 
+                            Foreground="Black"/>
+            </Grid>
+        </DataTemplate>
+
+        <DataTemplate x:Name="SelectingTemplate">
+            <local:SenderSideTemplateSelector Content="{Binding}"
+                                    SenderTemplate="{StaticResource SenderSideTemplate}"
+                                    ReceiverTemplate="{StaticResource ReceiverSideTemplate}"
+                                    HorizontalContentAlignment="Stretch" />
+        </DataTemplate>-->
+    </UserControl.Resources>
+
+    <Grid Margin="0,-28,0,28">
+        <telerikData:RadConversationView x:Name="ConversationView"
+                                         SendingMessage="OnSendingMessage" 
+                                         Margin="1,0,-1,0">
+            <telerikData:RadConversationView.IncomingMessageTemplate>
+                <DataTemplate>
+                    <Grid HorizontalAlignment="Stretch" 
+                  VerticalAlignment="Stretch"
+                  Margin="0,3,0,3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="16"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Ellipse Grid.Column="0" Fill="WhiteSmoke" 
+                            Width="60"
+                            Height="60"
+                            Margin="0,0,10,0"
+                            VerticalAlignment="Top"/>
+
+                        <Ellipse Grid.Column="0"
+                            Width="60"
+                            Height="60"
+                            Margin="0,0,10,0"
+                            VerticalAlignment="Top">
+                            <Ellipse.Fill>
+                                <ImageBrush ImageSource="/Assets/UIImages/Maruko/phone.png"/>
+                            </Ellipse.Fill>
+                        </Ellipse>
+
+                        <Polyline Points="0,0 16,0 16,16 0,0"
+                          StrokeThickness="0"
+                          Fill="LightGray"
+                          HorizontalAlignment="Left"
+                          VerticalAlignment="Top"
+                          Grid.Column="1"
+                          Margin="0,10,0,0" />
+
+                        <Rectangle  Grid.Column="2"
+                            HorizontalAlignment="Stretch" 
+                            VerticalAlignment="Stretch" 
+                            Margin="0, 0, 50, 0"
+                            Fill="LightGray" />
+
+                        <Rectangle Grid.Column="2"
+                           Height="3"
+                           HorizontalAlignment="Stretch"
+                           VerticalAlignment="Bottom"
+                           Margin="0, 0, 50, 0"
+                           Fill="#F96A0E" />
+
+                        <TextBlock  Grid.Column="2" 
+                            HorizontalAlignment="Stretch" 
+                            VerticalAlignment="Top" 
+                            Margin="10, 10, 60, 10"
+						    TextWrapping="Wrap" 
+						    Text="{Binding Text}" 
+						    TextOptions.TextHintingMode="Animated" 
+                            Foreground="Black"/>
+                    </Grid>
+                </DataTemplate>
+            </telerikData:RadConversationView.IncomingMessageTemplate>
+            
+            <telerikData:RadConversationView.OutgoingMessageTemplate>
+                <DataTemplate>
+                    <Grid HorizontalAlignment="Stretch" 
+                  VerticalAlignment="Stretch"
+                  Margin="0, 3, 0, 3">
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="16"/>
+                            <ColumnDefinition Width="70"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Rectangle  HorizontalAlignment="Stretch" 
+                            VerticalAlignment="Stretch" 
+                            Margin="50, 0, 0, 0"
+                            Fill="{StaticResource PhoneAccentBrush}" />
+
+                        <Rectangle Grid.Column="0"
+                           Height="3"
+                           HorizontalAlignment="Stretch"
+                           VerticalAlignment="Bottom"
+                           Margin="50, 0, 0, 0"
+                           Fill="#26C281" />
+
+                        <TextBlock  Grid.Column="0" 
+                            HorizontalAlignment="Stretch" 
+                            VerticalAlignment="Top" 
+                            Margin="60, 10, 10, 10"
+							TextWrapping="Wrap" 
+							Text="{Binding Text}" 
+							TextOptions.TextHintingMode="Animated" />
+
+                        <Polyline Points="0,0 16,0 0,16 0,0"
+                          StrokeThickness="0"
+                          Fill="{StaticResource PhoneAccentBrush}"
+                          HorizontalAlignment="Right"
+                          Grid.Column="1" 
+                          Margin="0,10,0,0" />
+
+                        <Ellipse Grid.Column="2"
+                            Width="60"
+                            Height="60"
+                            Margin="10,0,0,0"
+                            VerticalAlignment="Top" 
+                            HorizontalAlignment="Right">
+                            <Ellipse.Fill>
+                                <ImageBrush ImageSource="{Binding Type, Converter={StaticResource ChatAvatarConverter}}"/>
+                            </Ellipse.Fill>
+                        </Ellipse>
+                    </Grid>
+                </DataTemplate>
+            </telerikData:RadConversationView.OutgoingMessageTemplate>
+            
+            <telerikData:RadConversationView.TextBoxTemplate>
+                <DataTemplate>
+                    <Grid Margin="0, 24, 0, 0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="3*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <primitives:RadPointerContentControl Grid.ColumnSpan="2"
+                                                             TargetPoint="200, -300">
+                            <primitives:RadPointerContentControl.PointerTemplate>
+                                <DataTemplate>
+                                    <Polygon Width="12"
+                                             Height="24"
+                                             Points="0,0 12,0 12,12"
+                                             StrokeThickness="0"
+                                             RenderTransformOrigin="0.5, 0.5">
+                                        <Polygon.RenderTransform>
+                                            <TransformGroup>
+                                                <ScaleTransform ScaleX="-1"/>
+                                                <TranslateTransform Y="-8"/>
+                                            </TransformGroup>
+                                        </Polygon.RenderTransform>
+                                    </Polygon>
+                                </DataTemplate>
+                            </primitives:RadPointerContentControl.PointerTemplate>
+
+                            <telerikPrimitives:RadTextBox x:Name="PART_TextBox"
+                                                          Watermark="nhập tin nhắn ở đây..."
+                                                          ActionButtonVisibility="Visible"
+                                                          AcceptsReturn="True">
+                                <telerikPrimitives:RadTextBox.ActionButtonStyle>
+                                    <Style TargetType="phoneTextBox:TextBoxActionButton">
+                                        <Setter Property="ButtonType"
+                                                Value="Custom"/>
+                                        <Setter Property="RestStateImageSource"
+                                                Value="/Telerik.Windows.Controls.Data;component/ConversationView/Images/SendIcon.png"/>
+                                    </Style>
+                                </telerikPrimitives:RadTextBox.ActionButtonStyle>
+                            </telerikPrimitives:RadTextBox>
+                        </primitives:RadPointerContentControl>
+                    </Grid>
+                </DataTemplate>
+            </telerikData:RadConversationView.TextBoxTemplate>
+        </telerikData:RadConversationView>
+        <TextBlock x:Name="TypingTextBlock" Foreground="#A200FF" Grid.RowSpan="2"
+                   IsHitTestVisible="False"/>
+    </Grid>
+
+    <!--<Grid x:Name="ContentPanel" Margin="0,-28,0,28">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="70" />
+        </Grid.RowDefinitions>
+        --><!-- Messages list --><!--
+
+        
+        <phone:LongListSelector 
+					ItemTemplate="{StaticResource SelectingTemplate}"
+					x:Name="LongListSelectorMessages"
+					HorizontalAlignment="Stretch" 
+					VerticalAlignment="Stretch" 
+					ItemsSource="{Binding Messages}"/>
+
+        --><!-- Type textbox --><!--
+        <Grid Grid.Row="1"
+              HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="110" />
+            </Grid.ColumnDefinitions>
+
+            <StackPanel>
+                
+                <toolkit:PhoneTextBox Hint="nhập tin nhắn ở đây..." 
+                                      x:Name="TxtUserMessage"
+				                      HorizontalAlignment="Stretch" 
+				                      VerticalAlignment="Stretch"
+                                      Height="65"
+                                      FontSize="{StaticResource PhoneFontSizeSmall}"
+				                      TextWrapping="Wrap" 
+                                      Tap="TxtUserMessage_Tap"/>
+                
+                <Rectangle HorizontalAlignment="Stretch"
+                           Height="3"
+                           Fill="#67809F"
+                           Opacity="0.8"
+                           Margin="13 -22 13 0"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="0">
+                <Button Style="{StaticResource StyleButtonPrimary}"
+                        x:Name="ButtonSendMessage"
+                        Height="65"
+				        Content="Gửi" 
+				        HorizontalAlignment="Stretch" 
+				        VerticalAlignment="Stretch" 
+				        Click="ButtonSendMessage_Click"/>
+                <Rectangle HorizontalAlignment="Stretch"
+                           Height="3"
+                           Fill="#67809F"
+                           Opacity="0.8"
+                           Margin="13 -22 13 0"/>
+            </StackPanel>
+        </Grid>
+    </Grid>-->
+</UserControl>

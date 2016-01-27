@@ -1,0 +1,14 @@
+﻿<WordLesson:Question xmlns:WordLesson="clr-namespace:Hoc_tieng_Nhat_cung_Maruko.Model.Lesson.WordLesson" Term="Maecenas aliquam praesent">
+	<WordLesson:Question.AnswerD>
+		<WordLesson:Answer AnswerText="Phasellus bibendum duis fusce aliquam" IsCorrectAnswer="False"/>
+	</WordLesson:Question.AnswerD>
+	<WordLesson:Question.AnswerA>
+		<WordLesson:Answer AnswerText="Curabitur class" IsCorrectAnswer="True"/>
+	</WordLesson:Question.AnswerA>
+	<WordLesson:Question.AnswerB>
+		<WordLesson:Answer AnswerText="Vestibulum accumsan integer curae" IsCorrectAnswer="False"/>
+	</WordLesson:Question.AnswerB>
+	<WordLesson:Question.AnswerC>
+		<WordLesson:Answer AnswerText="Cras donec quisque vivamus etiam" IsCorrectAnswer="True"/>
+	</WordLesson:Question.AnswerC>
+</WordLesson:Question>

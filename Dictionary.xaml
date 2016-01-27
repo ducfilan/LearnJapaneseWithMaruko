@@ -1,0 +1,98 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone" x:Class="Hoc_tieng_Nhat_cung_Maruko.Dictionary"
+    mc:Ignorable="d"
+    d:DesignHeight="800" d:DesignWidth="432">
+    
+	<UserControl.FontFamily>
+		<StaticResource ResourceKey="PhoneFontFamilyNormal"/>
+	</UserControl.FontFamily>
+	<UserControl.FontSize>
+		<StaticResource ResourceKey="PhoneFontSizeNormal"/>
+	</UserControl.FontSize>
+	<UserControl.Foreground>
+		<StaticResource ResourceKey="PhoneForegroundBrush"/>
+	</UserControl.Foreground>
+    
+	<Grid x:Name="LayoutRoot" Background="{StaticResource PhoneChromeBrush}">
+
+		<phone:PanoramaItem Header="từ điển" 
+			HeaderTemplate="{StaticResource PanoramaHeaderTemplate}"
+			Padding="0, 0, -10, 0">
+			<Grid x:Name="GridDictionary" 
+				Margin="0, 0, 10, 0">
+
+				<Grid.RowDefinitions>
+					<RowDefinition Height="*" />
+					<RowDefinition Height="70"/>
+				</Grid.RowDefinitions>
+                    
+				<phone:LongListSelector Margin="0,-25, 0, 2" 
+					DataContext="{d:DesignData SampleData/DictWordSampleData.xaml}"
+					ItemsSource="{Binding Definitions}"
+					Background="#FFFDF2" 
+					Opacity="0.8">
+                        
+					<phone:LongListSelector.ListHeaderTemplate>
+						<DataTemplate>
+							<Grid Margin="12,0,0,10">
+								<Grid.RowDefinitions>
+									<RowDefinition Height="Auto"/>
+									<RowDefinition Height="*"/>
+								</Grid.RowDefinitions>
+								<TextBlock Text="Từ điển Nhật - Việt"
+									Style="{StaticResource StyleTextBlock}"
+									Grid.Row="0"/>
+							</Grid>
+						</DataTemplate>
+					</phone:LongListSelector.ListHeaderTemplate>
+					<phone:LongListSelector.ItemTemplate>
+						<DataTemplate>
+							<StackPanel Orientation="Horizontal" Margin="12,2,0,4" Height="105" Width="432">
+                                    <!--Replace rectangle with image-->
+								<Border BorderThickness="1" Width="99" Height="99" BorderBrush="#FFFFC700" Background="#FFFFC700"/>
+								<StackPanel Width="311" Margin="8,-7,0,0">
+									<TextBlock Text="{Binding Meaning}"
+										Margin="10,0" 
+										Style="{StaticResource StyleTextBlock}"
+										FontFamily="{StaticResource PhoneFontFamilySemiBold}"
+										FontSize="{StaticResource PhoneFontSizeLarge}" />
+									<TextBlock Text="{Binding Type}"
+										Margin="10,-2,10,0" 
+										Style="{StaticResource StyleTextBlock}"
+										Foreground="#3D84C1"/>
+								</StackPanel>
+							</StackPanel>
+						</DataTemplate>
+					</phone:LongListSelector.ItemTemplate>
+				</phone:LongListSelector>
+                    <!-- Type textbox -->
+				<Grid Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="110" />
+					</Grid.ColumnDefinitions>
+					<TextBox 
+						x:Name="TxtUserMessage"
+						HorizontalAlignment="Stretch" 
+						VerticalAlignment="Stretch"
+						TextWrapping="Wrap" 
+						Margin="0" />
+					<Button 
+						x:Name="ButtonTranslate"
+						Grid.Column="1" 
+						Content="Go" 
+						HorizontalAlignment="Stretch" 
+						VerticalAlignment="Stretch" 
+						Background="#1DBC9E"
+						BorderThickness="0"
+						Margin="-10, 0, -10, 0"/>
+				</Grid>
+			</Grid>
+		</phone:PanoramaItem>
+
+	</Grid>
+</UserControl>

@@ -1,0 +1,19 @@
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\Debug\Assets\ApplicationIcon.png
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\Debug\Học tiếng Nhật cùng Maruko.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\Debug\Học tiếng Nhật cùng Maruko.pdb
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\Debug\AppManifest.xaml
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\Debug\Properties\WMAppManifest.xml
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\Debug\Học_tiếng_Nhật_cùng_Maruko_Debug_AnyCPU.xap
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\Debug\App.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\Debug\MainPage.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\Debug\Học tiếng Nhật cùng Maruko.g.resources
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\Debug\Học_tiếng_Nhật_cùng_Maruko.Resources.AppResources.resources
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\Debug\Học tiếng Nhật cùng Maruko.csproj.GenerateResource.Cache
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\Debug\Học tiếng Nhật cùng Maruko.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\Debug\Học tiếng Nhật cùng Maruko.pdb
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\Debug\XapCacheFile.xml

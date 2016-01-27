@@ -1,0 +1,406 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Hoc_tieng_Nhat_cung_Maruko.View.FirstTimeUse"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False">
+    
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <phone:Pivot 
+        x:Name="PivotIntroduction"
+        HorizontalAlignment="Stretch"
+        VerticalAlignment="Stretch"
+        HeaderTemplate="{StaticResource PivotHeaderIntroTemplate}"
+        Background="#9A12B4" SelectionChanged="PivotIntroduction_SelectionChanged">
+
+        <phone:PivotItem 
+            x:Name="PivotItemMarukoIntro"
+                CacheMode="{x:Null}" 
+                Header="1" 
+                HorizontalAlignment="Stretch"
+                Background="#9A12B4"
+                Margin="0">
+            <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Image Name="ImageMarukoIntro" Source="/Assets/UIImages/Maruko/vusuong.png" 
+                       Stretch="None"
+                       Margin="0, 0, 20, 0" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <CompositeTransform Rotation="0"/>
+                    </Image.RenderTransform>
+                </Image>
+                <TextBlock Grid.Row="1" 
+                           Margin="20"
+                   Style="{StaticResource StyleTextBlockLight}" 
+                   Text="はじめ まして！ Xin chào bạn! &#x0d;Mình là Maruko (まる子 ちゃん). Mình sống ở Nhật Bản. Mình cũng 9 tuổi rồi, đang học lớp 3 đó. Mình rất vui được làm quen với bạn, hihii...
+                           &#x0d;Từ bây giờ, chúng ta là bạn nhé. Cứ gọi mình là Nhóc Maruko nhé.
+                           &#x0d;Bạn đang muốn học tiếng Nhật à? Hehee Thế để mình dạy cho bạn ha. Mình không giỏi tiếng Việt lắm đâu nhưng mình sẽ cố gắng hiểu bạn...
+                           &#x0d;Cố gắng lên. 頑張ってよ！"
+                   HorizontalAlignment="Center" />
+                <Button x:Name="ButtonNextFromMarukoIntro"  
+                        Grid.Row="2" Style="{StaticResource StyleButtonPrimary}" 
+                        Content="Tiếp theo" 
+                        Click="ButtonNextFromMarukoIntroducing_OnClick"/>
+            </Grid>
+        </phone:PivotItem>
+        
+        <!-- Avatar asking -->
+        <phone:PivotItem 
+            x:Name="PivotItemAvatar"
+            CacheMode="{x:Null}" 
+                             Background="#039372"
+                             Header="2"
+                             Margin="0">
+            <!-- Select User avatar -->
+            
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Border Background="#23A7F1"
+                        Margin="0,0,0,20"
+                        Padding="20">
+                    <TextBlock Text="giờ bạn giới thiệu đi nhé..."
+                           FontSize="{StaticResource PhoneFontSizeExtraExtraLarge}"
+                           FontFamily="{StaticResource PhoneFontFamilyLight}"
+                           TextWrapping="Wrap"/>
+                </Border>
+                <Image Grid.Row="1" Margin="0, -27, 0, 0"  Source="/Assets/UIImages/shadow.png" />
+
+                <Grid Grid.Row="2" Grid.Column="0" Tap="Grid_Tap">
+                    <Ellipse Width="135"
+                         Height="135"
+                         Fill="#039372"
+                         Stroke="FloralWhite" StrokeThickness="2">
+                    </Ellipse>
+                    <Ellipse Width="120"
+                         Height="120">
+                        <Ellipse.Fill>
+                            <ImageBrush x:Name="ImageUserAvatar" ImageSource="/Assets/UIImages/default avatar.jpg"/>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                </Grid>
+
+                <TextBlock Grid.Row="3"  Grid.Column="0"
+                           Style="{StaticResource StyleTextBlockLight}"
+                           Text="Chạm vào hình để chọn ảnh"
+                           HorizontalAlignment="Center" />
+                
+                <Grid Grid.Row="4"
+                      VerticalAlignment="Bottom">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image x:Name="ImageMarukoAskAvatar"
+                        Grid.Column="0" Source="/Assets/UIImages/Maruko/shy.png"
+                       Width="200"
+                       Height="200"
+                       HorizontalAlignment="Right"/>
+                    <Border Grid.Column="1"
+                            Width="200"
+                            Height="104"
+                            Margin="-20, 0, 0, 120"
+                            HorizontalAlignment="Left">
+                        <Border.Background>
+                            <ImageBrush ImageSource="/Assets/UIImages/speech bubble.png" />
+                        </Border.Background>
+                        <TextBlock Text="Đầu tiên bạn cho mình biết mặt của bạn nhé!" 
+                           Width="150"
+                           Style="{StaticResource StyleTextBlockDark}"
+                                   Margin="12, 15, -12, 0"/>
+                    </Border>
+                </Grid>
+
+                <Button Grid.Row="5" Style="{StaticResource StyleButtonPrimary}" Content="Tiếp theo" 
+                        x:Name="ButtonNextFromAvatarSelecting"
+                        Background="#E87E04"
+                        Click="ButtonNextFromAvatarSelecting_OnClick"/>
+            </Grid>
+        </phone:PivotItem>
+
+        <!-- Name asking -->
+        <phone:PivotItem 
+            x:Name="PivotItemNameOfUser"
+            CacheMode="{x:Null}" 
+                             Background="#23A7F1"
+                             Header="3"
+                             Margin="0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Border Background="#F2774B"
+                        Margin="0,0,0,20"
+                        Padding="20">
+                    <TextBlock Text="Ề. tên bạn là gì thế?..."
+                           FontSize="{StaticResource PhoneFontSizeExtraExtraLarge}"
+                           FontFamily="{StaticResource PhoneFontFamilyLight}"
+                           TextWrapping="Wrap"/>
+                </Border>
+                
+                <Image Grid.Row="1" Margin="0, -27, 0, 0"  Source="/Assets/UIImages/shadow.png" />
+
+                <Grid Grid.Row="2"
+                      Margin="20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.Background>
+                        <SolidColorBrush Color="FloralWhite"
+                                         Opacity="0.8"/>
+                    </Grid.Background>
+                    
+                    <TextBlock Style="{StaticResource StyleTextBlockDark}"
+                                   Text="Tên bạn: "
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"
+                               Margin="10"/>
+
+                    <TextBox Grid.Column="1"
+                             x:Name="TextBoxNameOfUser"
+                             Opacity="0.8"/>
+                </Grid>
+
+                <Grid Grid.Row="3"
+                      VerticalAlignment="Bottom">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image x:Name="ImageMarukoAskName"
+                        Grid.Column="0" Source="/Assets/UIImages/Maruko/vuive.png"
+                       Width="200"
+                       Height="200"
+                       HorizontalAlignment="Right"/>
+                    <Border Grid.Column="1"
+                            Width="200"
+                            Height="104"
+                            Margin="-20, 0, 0, 120"
+                            HorizontalAlignment="Left">
+                        <Border.Background>
+                            <ImageBrush ImageSource="/Assets/UIImages/speech bubble.png" />
+                        </Border.Background>
+                        <TextBlock Text="Cho mình biết tên cho dễ xưng hô nhé!" 
+                                   Width="150"
+                                   x:Name="TextBlockNameAsking"
+                                   Style="{StaticResource StyleTextBlockDark}"
+                                           Margin="12, 15, -12, 0"/>
+                    </Border>
+                </Grid>
+                
+                <Button x:Name="ButtonNextFromNameAsking"
+                    Grid.Row="4" Style="{StaticResource StyleButtonPrimary}" Content="Tiếp theo" 
+                        Background="#E87E04"
+                        Click="ButtonNextFromNameAsking_OnClick"/>
+            </Grid>
+            
+        </phone:PivotItem>
+
+
+        <!-- Dob Asking -->
+        <phone:PivotItem 
+            x:Name="PivotItemDobOfUser"
+            CacheMode="{x:Null}" 
+                             Background="#2DCC70"
+                             Header="4"
+                             Margin="0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Border Background="#F4B251"
+                        Margin="0,0,0,20"
+                        Padding="20">
+                    <TextBlock Text="Mmm. Còn ngày sinh?..."
+                           FontSize="{StaticResource PhoneFontSizeExtraExtraLarge}"
+                           FontFamily="{StaticResource PhoneFontFamilyLight}"
+                           TextWrapping="Wrap"/>
+                </Border>
+
+                <Image Grid.Row="1" Margin="0, -27, 0, 0"  Source="/Assets/UIImages/shadow.png" />
+
+                <Grid Grid.Row="2"
+                      Margin="20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.Background>
+                        <SolidColorBrush Color="FloralWhite"
+                                         Opacity="0.8"/>
+                    </Grid.Background>
+
+                    <TextBlock Style="{StaticResource StyleTextBlockDark}"
+                                   Text="Ngày sinh: "
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"
+                               Margin="10"/>
+
+                    <toolkit:DatePicker Grid.Column="1"
+                                        x:Name="DatePickerUserDob"
+                                        Foreground="#3B3A39"
+                                        FontSize="{StaticResource PhoneFontSizeExtraLarge}"
+                                        ValueChanged="DatePickerUserDob_OnValueChanged"
+                                        Opacity="0.8" />
+                </Grid>
+
+                <Grid Grid.Row="3"
+                      VerticalAlignment="Bottom">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image x:Name="ImageMarukoAskDob"
+                        Grid.Column="0" Source="/Assets/UIImages/marukochan.png"
+                       Width="200"
+                       Height="200"
+                       HorizontalAlignment="Right"/>
+                    <Border Grid.Column="1"
+                            Width="200"
+                            Height="104"
+                            Margin="-20, 0, 0, 120"
+                            HorizontalAlignment="Left">
+                        <Border.Background>
+                            <ImageBrush ImageSource="/Assets/UIImages/speech bubble.png" />
+                        </Border.Background>
+                        <TextBlock Text="Biết ngày sinh rùi  mình   tặng   quà sinh nhật cho nhe!" 
+                                   Width="150"
+                                   x:Name="TextBlockDobAsking"
+                                   Style="{StaticResource StyleTextBlockDark}"
+                                           Margin="12, 15, -12, 0"/>
+                    </Border>
+                </Grid>
+                <Button x:Name="ButtonNextFromMinnaLevelAsking"
+                    Grid.Row="4" Style="{StaticResource StyleButtonPrimary}" Content="Tiếp theo" 
+                        Background="#E87E04"
+                        Click="ButtonNextFromDobAsking_OnClick"/>
+            </Grid>
+
+        </phone:PivotItem>
+        
+        <!--Minna level asking-->
+        <phone:PivotItem 
+            x:Name="PivotItemMinnaLevelOfUser"
+            CacheMode="{x:Null}" 
+                             Background="#23A7F1"
+                             Header="5"
+                             Margin="0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Border Background="#F2774B"
+                        Margin="0,0,0,20"
+                        Padding="20">
+                    <TextBlock Text="Đã học Minna bài nào rồi?"
+                           FontSize="{StaticResource PhoneFontSizeExtraExtraLarge}"
+                           FontFamily="{StaticResource PhoneFontFamilyLight}"
+                           TextWrapping="Wrap"/>
+                </Border>
+
+                <Image Grid.Row="1" Margin="0, -27, 0, 0"  Source="/Assets/UIImages/shadow.png" />
+
+                <Grid Grid.Row="2"
+                      Margin="20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.Background>
+                        <SolidColorBrush Color="FloralWhite"
+                                         Opacity="0.8"/>
+                    </Grid.Background>
+
+                    <TextBlock Style="{StaticResource StyleTextBlockDark}"
+                                   Text="Đã học đến bài: "
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"
+                               Margin="10"/>
+
+                    <TextBox Grid.Column="1"
+                             InputScope="Number"
+                             x:Name="TextBoxMinnaLevelOfUser"
+                             Opacity="0.8"/>
+                </Grid>
+
+                <Grid Grid.Row="3"
+                      VerticalAlignment="Bottom">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image x:Name="ImageMarukoAskMinnaLevel"
+                        Grid.Column="0" Source="/Assets/UIImages/Maruko/wondering.png"
+                       Width="200"
+                       Height="200"
+                       HorizontalAlignment="Right"/>
+                    <Border Grid.Column="1"
+                            Width="200"
+                            Height="104"
+                            Margin="-20, 0, 0, 120"
+                            HorizontalAlignment="Left">
+                        <Border.Background>
+                            <ImageBrush ImageSource="/Assets/UIImages/speech bubble.png" />
+                        </Border.Background>
+                        <TextBlock Text="Bạn đang học bài nào giáo trình Minna no Nihongo rồi?" 
+                                   Width="165"
+                                   x:Name="TextBlockMinnaLevelAsking"
+                                   Style="{StaticResource StyleTextBlockDark}"
+                                           Margin="12, 15, -12, 0"/>
+                    </Border>
+                </Grid>
+
+                <Button x:Name="ButtonNextFromMinnaLevel"
+                    Grid.Row="4" Style="{StaticResource StyleButtonPrimary}" Content="Xong rồi" 
+                        Background="#2DCC70"
+                        Click="ButtonNextFromMinnaLevelAsing_OnClick"/>
+            </Grid>
+
+        </phone:PivotItem>
+    </phone:Pivot>
+
+</phone:PhoneApplicationPage>

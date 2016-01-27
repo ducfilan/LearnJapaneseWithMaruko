@@ -1,0 +1,163 @@
+﻿<conversation:MessageGroup
+    xmlns="http://schemas.microsoft.com/client/2007"
+    xmlns:conversation="clr-namespace:Hoc_tieng_Nhat_cung_Maruko.Model.Conversation">
+    <conversation:MessageGroup.Messages>
+
+        <conversation:Message SenderSide="Receiver" 
+                    MessageText="Message no 7. Hello everyone. I&apos;m the king so follow me!">
+            <conversation:Message.Person>
+                <conversation:Person Name="Giang" 
+                           AvatarUrl="/Assets/ApplicationIcon.png" />
+            </conversation:Message.Person>
+        </conversation:Message>
+
+        <conversation:Message SenderSide="Sender" 
+                    MessageText="Message no 8. Hello everyone. I&apos;m the king so follow me!">
+            <conversation:Message.Person>
+                <conversation:Person Name="Duc" 
+                           AvatarUrl="/Assets/ApplicationIcon.png">
+                </conversation:Person>
+            </conversation:Message.Person>
+        </conversation:Message>
+
+        <conversation:Message SenderSide="Receiver" 
+                    MessageText="Message no 7. Hello everyone. I&apos;m the king so follow me!">
+            <conversation:Message.Person>
+                <conversation:Person Name="Giang" 
+                           AvatarUrl="/Assets/ApplicationIcon.png" />
+            </conversation:Message.Person>
+        </conversation:Message>
+
+        <conversation:Message SenderSide="Sender" 
+                    MessageText="Message no 8. Hello everyone. I&apos;m the king so follow me!">
+            <conversation:Message.Person>
+                <conversation:Person Name="Duc" 
+                           AvatarUrl="/Assets/ApplicationIcon.png">
+                </conversation:Person>
+            </conversation:Message.Person>
+        </conversation:Message>
+
+        <conversation:Message SenderSide="Receiver" 
+                    MessageText="Message no 7. Hello everyone. I&apos;m the king so follow me!">
+            <conversation:Message.Person>
+                <conversation:Person Name="Giang" 
+                           AvatarUrl="/Assets/ApplicationIcon.png" />
+            </conversation:Message.Person>
+        </conversation:Message>
+
+        <conversation:Message SenderSide="Sender" 
+                    MessageText="Message no 8. Hello everyone. I&apos;m the king so follow me!">
+            <conversation:Message.Person>
+                <conversation:Person Name="Duc" 
+                           AvatarUrl="/Assets/ApplicationIcon.png">
+                </conversation:Person>
+            </conversation:Message.Person>
+        </conversation:Message>
+
+        <conversation:Message SenderSide="Receiver" 
+                    MessageText="Message no 7. Hello everyone. I&apos;m the king so follow me!">
+            <conversation:Message.Person>
+                <conversation:Person Name="Giang" 
+                           AvatarUrl="/Assets/ApplicationIcon.png" />
+            </conversation:Message.Person>
+        </conversation:Message>
+
+        <conversation:Message SenderSide="Sender" 
+                    MessageText="Message no 8. Hello everyone. I&apos;m the king so follow me!">
+            <conversation:Message.Person>
+                <conversation:Person Name="Duc" 
+                           AvatarUrl="/Assets/ApplicationIcon.png">
+                </conversation:Person>
+            </conversation:Message.Person>
+        </conversation:Message>
+
+        <conversation:Message SenderSide="Receiver" 
+                    MessageText="Message no 7. Hello everyone. I&apos;m the king so follow me!">
+            <conversation:Message.Person>
+                <conversation:Person Name="Giang" 
+                           AvatarUrl="/Assets/ApplicationIcon.png" />
+            </conversation:Message.Person>
+        </conversation:Message>
+        <conversation:Message SenderSide="Receiver" 
+                    MessageText="Message no 7. Hello everyone. I&apos;m the king so follow me!">
+            <conversation:Message.Person>
+                <conversation:Person Name="Giang" 
+                           AvatarUrl="/Assets/ApplicationIcon.png" />
+            </conversation:Message.Person>
+        </conversation:Message>
+
+        <conversation:Message SenderSide="Sender" 
+                    MessageText="Message no 8. Hello everyone. I&apos;m the king so follow me!">
+            <conversation:Message.Person>
+                <conversation:Person Name="Duc" 
+                           AvatarUrl="/Assets/ApplicationIcon.png">
+                </conversation:Person>
+            </conversation:Message.Person>
+        </conversation:Message>
+
+        <conversation:Message SenderSide="Receiver" 
+                    MessageText="Message no 7. Hello everyone. I&apos;m the king so follow me!">
+            <conversation:Message.Person>
+                <conversation:Person Name="Giang" 
+                           AvatarUrl="/Assets/ApplicationIcon.png" />
+            </conversation:Message.Person>
+        </conversation:Message>
+
+        <conversation:Message SenderSide="Sender" 
+                    MessageText="Message no 8. Hello everyone. I&apos;m the king so follow me!">
+            <conversation:Message.Person>
+                <conversation:Person Name="Duc" 
+                           AvatarUrl="/Assets/ApplicationIcon.png">
+                </conversation:Person>
+            </conversation:Message.Person>
+        </conversation:Message>
+
+        <conversation:Message SenderSide="Receiver" 
+                    MessageText="Message no 7. Hello everyone. I&apos;m the king so follow me!">
+            <conversation:Message.Person>
+                <conversation:Person Name="Giang" 
+                           AvatarUrl="/Assets/ApplicationIcon.png" />
+            </conversation:Message.Person>
+        </conversation:Message>
+
+        <conversation:Message SenderSide="Sender" 
+                    MessageText="Message no 8. Hello everyone. I&apos;m the king so follow me!">
+            <conversation:Message.Person>
+                <conversation:Person Name="Duc" 
+                           AvatarUrl="/Assets/ApplicationIcon.png">
+                </conversation:Person>
+            </conversation:Message.Person>
+        </conversation:Message>
+
+        <conversation:Message SenderSide="Receiver" 
+                    MessageText="Message no 7. Hello everyone. I&apos;m the king so follow me!">
+            <conversation:Message.Person>
+                <conversation:Person Name="Giang" 
+                           AvatarUrl="/Assets/ApplicationIcon.png" />
+            </conversation:Message.Person>
+        </conversation:Message>
+
+        <conversation:Message SenderSide="Sender" 
+                    MessageText="Message no 8. Hello everyone. I&apos;m the king so follow me!">
+            <conversation:Message.Person>
+                <conversation:Person Name="Duc" 
+                           AvatarUrl="/Assets/ApplicationIcon.png">
+                </conversation:Person>
+            </conversation:Message.Person>
+        </conversation:Message>
+
+        <conversation:Message SenderSide="Receiver" 
+                    MessageText="Message no 7. Hello everyone. I&apos;m the king so follow me!">
+            <conversation:Message.Person>
+                <conversation:Person Name="Giang" 
+                           AvatarUrl="/Assets/ApplicationIcon.png" />
+            </conversation:Message.Person>
+        </conversation:Message>
+    </conversation:MessageGroup.Messages>
+    <conversation:MessageGroup.Persons>
+        <conversation:Person Name="Duc" 
+                   AvatarUrl="/Assets/ApplicationIcon.png" />
+        <conversation:Person Name="Giang" 
+                   AvatarUrl="/Assets/ApplicationIcon.png"/>
+    </conversation:MessageGroup.Persons>
+</conversation:MessageGroup>

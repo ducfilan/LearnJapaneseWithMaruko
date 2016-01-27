@@ -1,0 +1,17 @@
+﻿<WordLesson:Lesson 
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:WordLesson="clr-namespace:Hoc_tieng_Nhat_cung_Maruko.Model.Lesson.WordLesson" 
+	ImagePath="Cras vestibulum aliquam aenean" LessonNumber="43">
+	<WordLesson:Lesson.LessonWords>
+		<WordLesson:VOCABULARYDB ID="96" LESSON="84" MEANING="DucFilanDuisnullamnuncpraesentphasellus" TERM="Mauris maecenas curabitur nam"/>
+		<WordLesson:VOCABULARYDB ID="31" LESSON="18" MEANING="Congue curae accumsan consequat amet" TERM="Aptent auctor class"/>
+		<WordLesson:VOCABULARYDB ID="98" LESSON="66" MEANING="Bibendum dictumst arcu" TERM="Adipiscing cursus donec convallis ante"/>
+		<WordLesson:VOCABULARYDB ID="10" LESSON="13" MEANING="Habitant dignissim" TERM="Eleifend facilisi integer faucibus"/>
+		<WordLesson:VOCABULARYDB ID="96" LESSON="25" MEANING="Vivamus diam aliquam" TERM="Quisque parturient"/>
+		<WordLesson:VOCABULARYDB ID="18" LESSON="47" MEANING="Lectus conubia" TERM="Sed dictum aliquet blandit commodo"/>
+		<WordLesson:VOCABULARYDB ID="77" LESSON="69" MEANING="Vestibulum adipiscing etiam eget cubilia" TERM="Vestibulum dis est inceptos libero"/>
+		<WordLesson:VOCABULARYDB ID="19" LESSON="19" MEANING="Erat elementum egestas facilisis euismod" TERM="Elit dapibus enim hac"/>
+		<WordLesson:VOCABULARYDB ID="29" LESSON="78" MEANING="Ligula fermentum leo nibh" TERM="Parturient eros feugiat vestibulum"/>
+		<WordLesson:VOCABULARYDB ID="67" LESSON="69" MEANING="Habitasse hendrerit" TERM="Fringilla interdum litora"/>
+	</WordLesson:Lesson.LessonWords>
+</WordLesson:Lesson>

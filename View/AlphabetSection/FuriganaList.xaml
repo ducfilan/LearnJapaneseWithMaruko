@@ -1,0 +1,244 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Hoc_tieng_Nhat_cung_Maruko.View.AlphabetSection.FuriganaList"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False">
+
+    <phone:PhoneApplicationPage.Resources>
+        <DataTemplate x:Key="DataTemplateListWords">
+            <RadioButton Padding="15 0 " GroupName="A" Style="{StaticResource PhoneRadioButtonCheckBoxBase}" >
+                <Grid Background="#FFFFFF"
+                  Margin="10, 10, 8, 10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="200" />
+                    </Grid.ColumnDefinitions>
+                    <toolkit:GestureService.GestureListener>
+                        <toolkit:GestureListener Hold="TapAndHoldGesture" />
+                    </toolkit:GestureService.GestureListener>
+
+                    <Border Background="#FFFFFF">
+                        <TextBlock Text="{Binding TERM}" 
+                               Style="{StaticResource StyleTextBlockDark}"
+                               FontFamily="{StaticResource PhoneFontFamilyNormal}"
+                               FontSize="{StaticResource PhoneFontSizeExtraExtraLarge}"
+                               Margin="10"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center" />
+                    </Border>
+
+                    <Rectangle Grid.Column="1" Width="1"
+                               Fill="#F9BF3A"
+                               Margin="0, 15, 0, 15"
+                               RadiusX="1"
+                               RadiusY="100" />
+
+                    <Border Grid.Column="2" Background="#FFFFFF">
+                        <TextBlock Text="{Binding MEANING}" 
+                               Style="{StaticResource StyleTextBlockDark}"
+                               FontFamily="{StaticResource PhoneFontFamilyNormal}"
+                               FontSize="{StaticResource PhoneFontSizeExtraExtraLarge}"
+                               Margin="10"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center" />
+                    </Border>
+                </Grid>
+            </RadioButton>
+        </DataTemplate>
+
+
+    </phone:PhoneApplicationPage.Resources>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="#E87E04">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="0"
+                    Background="#26C281" 
+                    Orientation="Horizontal">
+            <TextBlock Text="Bảng chữ cái" Margin="18, 0, 0, 0" Style="{StaticResource PhoneTextTitle1Style}"
+                       VerticalAlignment="Center"
+                       FontFamily="{StaticResource PhoneFontFamilyLight}"/>
+        </StackPanel>
+
+        <Image Grid.Row="1" Source="/Assets/UIImages/shadow.png"
+               Margin="0, -8"/>
+
+        <!--ContentPanel - place additional content here-->
+        <phone:Pivot Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                     HeaderTemplate="{StaticResource PivotHeaderNormalTemplate}"
+                     x:Name="PivotWordLesson"
+                     SelectionChanged="Pivot_SelectionChanged"
+                     Margin="0, -20">
+            <phone:PivotItem CacheMode="BitmapCache" Header="Hiragana" Margin="12,0"
+                             x:Name="PivotItemAllHiraganas">
+                <phone:LongListSelector x:Name="LongListSelectorHiraganas" 
+                                    ItemTemplate="{StaticResource DataTemplateListWords}"
+                                   />
+            </phone:PivotItem>
+            <phone:PivotItem CacheMode="BitmapCache" Header="Katakana"
+                             x:Name="PivotItemAllKatakanas">
+                <phone:LongListSelector x:Name="LongListSelectorKatakanas" 
+                                    ItemTemplate="{StaticResource DataTemplateListWords}"
+                                  />
+            </phone:PivotItem>
+            <phone:PivotItem CacheMode="BitmapCache" Header="kiểm tra"
+                             x:Name="PivotItemTest">
+                <Border x:Name="BorderWrapTest" 
+                            Background="#E87E04" Margin="0, -30">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="100" />
+                            <RowDefinition Height="320" />
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" Height="40" Margin="0 20 0 0" HorizontalAlignment="Center" Name="textBlock1" Text="30/50 câu hỏi" VerticalAlignment="Top" Foreground="AliceBlue" FontSize="25" FontFamily="Segoe WP" FontWeight="Thin" />
+                        <Slider Grid.Row="0" Margin="-40" Value="100" Minimum ="10" Maximum="100"  Height="84" HorizontalAlignment="Center"  Name="slider1" VerticalAlignment="Bottom" ValueChanged="slider1_ValueChanged" Width="434" />
+
+                        <Grid  Grid.Row="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <StackPanel Orientation="Horizontal">
+                                <RadioButton Content="Hiragana" Name="RbHiraganaButton" IsChecked="true"/>
+                                <RadioButton Content="Katakana " Name="RbKatakanaButton" />
+                            </StackPanel>
+
+                            <Grid Grid.Row="1" HorizontalAlignment="Center">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Image Source="/Assets/UIImages/Maruko/nhaycovu.png" 
+                                           Height="200"
+                                           x:Name="ImageMarukoTest"
+                                           VerticalAlignment="Bottom"
+                                           HorizontalAlignment="Right"
+                                           Margin="0"
+                                           RenderTransformOrigin="0.5, 0.5">
+                                    <Image.RenderTransform >
+                                        <ScaleTransform ScaleX="-1"></ScaleTransform>
+                                    </Image.RenderTransform>
+                                </Image>
+
+                                <Border Grid.Column="1"
+                                        Width="200"
+                                        Height="104"
+                                        Margin="-30, 0, 0, 120"
+                                        HorizontalAlignment="Left">
+                                    <Border.Background>
+                                        <ImageBrush ImageSource="/Assets/UIImages/speech bubble.png" />
+                                    </Border.Background>
+                                    <TextBlock Text="Cố gắng đạt kết quả cao bạn nhé! 頑張ってよ！" 
+                                               Width="150"
+                                               x:Name="TextBlockMarukoTalk"
+                                               Style="{StaticResource StyleTextBlockDark}"
+                                               Margin="12, 15, -12, 0"/>
+                                </Border>
+                            </Grid>
+                        </Grid>
+                        <!--<StackPanel Grid.Row="2" Orientation="Horizontal">
+                            <RadioButton Content="Đọc" IsChecked="true" Name ="RbReading"/>
+                            <RadioButton Content="Nghe"  Name="RbListening"/>
+                            <RadioButton Content="Viết" Name="RbWriting"/>
+                        </StackPanel>-->
+
+                        <Grid Grid.Row="3" Margin="20">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <Grid x:Name="ButtonPrevWord" HorizontalAlignment="Center" VerticalAlignment="Center"
+                  toolkit:TiltEffect.IsTiltEnabled="True" Width="100" Height="100"
+                  Tap="ButtonReading_OnTap">
+                                <Ellipse x:Name="ellipse" Width="100" Height="100" Fill="#FFFFFF" />
+                                <Ellipse Width="85" Height="85" Fill="#E87E04"/>
+                                <Ellipse Width="85" Height="85" Fill="#ABB7B7" Opacity="0.6" />
+                                <Border Width="100" Height="100" Padding="20">
+                                    <Image Source="../../Assets/UIImages/read.png" Stretch="Fill" />
+                                </Border>
+                            </Grid>
+
+                            <Grid Grid.Column="1" 
+                  x:Name="ButtonPlayWord"
+                  HorizontalAlignment="Center" VerticalAlignment="Center"
+                  toolkit:TiltEffect.IsTiltEnabled="True"
+                  Tap="ButtonListening_OnTap">
+                                <Ellipse x:Name="ellipse1" Width="100" Height="100" Fill="#FFFFFF" />
+                                <Ellipse Width="85" Height="85" Fill="#E87E04"/>
+                                <Ellipse Width="85" Height="85" Fill="#ABB7B7" Opacity="0.6" />
+                                <Border Width="100" Height="100" Padding="20">
+                                    <Image Source="../../Assets/UIImages/listen.png" Stretch="Fill" />
+                                </Border>
+                            </Grid>
+
+                            <Grid Grid.Column="2" 
+                  x:Name="ButtonNextWord"
+                  HorizontalAlignment="Center" VerticalAlignment="Center"
+                  toolkit:TiltEffect.IsTiltEnabled="True"
+                  Tap="ButtonWriting_OnTap">
+                                <Ellipse x:Name="ellipse2" Width="100" Height="100" Fill="#FFFFFF" />
+                                <Ellipse Width="85" Height="85" Fill="#E87E04"/>
+                                <Ellipse Width="85" Height="85" Fill="#ABB7B7" Opacity="0.6" />
+                                <Border Width="100" Height="100" Padding="20">
+                                    <Image Source="../../Assets/UIImages/write.png" Stretch="Fill" />
+                                </Border>
+                            </Grid>
+                            <!--<Button Grid.Row="3" Content="BẮT ĐẦU" 
+                                    x:Name="ButtonStartTest"
+                                    Style="{StaticResource StyleButtonDanger}"
+                                    Width="250" Height="100"
+                                    VerticalAlignment="Bottom"
+                                    Tap="ButtonStartTest_OnTap"/>-->
+                        </Grid>
+                        <Grid Grid.Row="4" Margin="0 -10 0 0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Height="100">
+                                <TextBlock Text="đọc" Margin="20 0 0 0" HorizontalAlignment="Center"></TextBlock>
+                            </Grid>
+
+                            <Grid Grid.Column="1"  HorizontalAlignment="Center" VerticalAlignment="Center"  Height="100">
+                                <TextBlock Text="nghe" HorizontalAlignment="Center"></TextBlock>
+                            </Grid>
+
+                            <Grid Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"   Height="100">
+                                <TextBlock Margin="0 0 23 0" Text="viết" HorizontalAlignment="Center"></TextBlock>
+                            </Grid>
+
+                        </Grid>
+                    </Grid>
+
+                </Border>
+            </phone:PivotItem>
+        </phone:Pivot>
+    </Grid>
+
+</phone:PhoneApplicationPage>

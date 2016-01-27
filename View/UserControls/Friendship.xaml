@@ -1,0 +1,322 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+	xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+	x:Class="Hoc_tieng_Nhat_cung_Maruko.View.UserControls.Friendship"
+	mc:Ignorable="d"
+	toolkit:TiltEffect.IsTiltEnabled="True"
+	FontFamily="{StaticResource PhoneFontFamilyNormal}"
+	FontSize="{StaticResource PhoneFontSizeNormal}"
+	Foreground="{StaticResource PhoneForegroundBrush}">
+	<UserControl.Resources>
+		<Storyboard x:Name="StoryboardGreetingMaruko">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="GridMarukoImage">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-486"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="-6">
+					<EasingDoubleKeyFrame.EasingFunction>
+						<BackEase EasingMode="EaseInOut"/>
+					</EasingDoubleKeyFrame.EasingFunction>
+				</EasingDoubleKeyFrame>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</UserControl.Resources>
+	<!-- Friendship root -->
+	<Grid HorizontalAlignment="Stretch"
+		VerticalAlignment="Stretch"
+		x:Name="GridLayoutFriendship">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="400" x:Name="StatisticTable"/>
+			<RowDefinition Height="*" x:Name="MarukoImage"/>
+		</Grid.RowDefinitions>
+		<!-- Statistic -->
+		<Grid Margin="0,-25,0,0" 
+			  VerticalAlignment="Stretch">
+			<Grid.Background>
+				<SolidColorBrush Color="#FFFDF2" Opacity="0.8" />
+			</Grid.Background>
+
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto" />
+				<RowDefinition Height="Auto" />
+			</Grid.RowDefinitions>
+			<!-- User info -->
+			<Grid x:Name="GridUserInfo">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="Auto" />
+					<ColumnDefinition Width="*" />
+					<ColumnDefinition Width="Auto" />
+				</Grid.ColumnDefinitions>
+
+				<Grid x:Name="GridAvatar" 
+					Margin="10"  
+					Tap="GridAvatar_OnTap"
+					HorizontalAlignment="Left">
+					<Ellipse Width="95"
+						Height="95"
+						Fill="#FFFDF2"
+						Stroke="BlueViolet" StrokeThickness="2"/>
+					<Ellipse Width="80"
+						Height="80">
+						<Ellipse.Fill>
+							<ImageBrush x:Name="ImageUserAvatar"/>
+						</Ellipse.Fill>
+					</Ellipse>
+				</Grid>
+
+				<Polyline Points="0,0 16,0 16,16 0,0"
+					StrokeThickness="0"
+					Fill="#26C281"
+					HorizontalAlignment="Left"
+					Grid.Row="0" Grid.Column="1" 
+					Margin="-2,70,0,0" />
+
+				<TextBox Grid.Row="0" Grid.Column="1" 
+					AcceptsReturn="True"
+					VerticalScrollBarVisibility="Auto"
+					HorizontalScrollBarVisibility="Hidden"
+					x:Name="TextBoxUserStataus"
+					Background="#26C281"
+					BorderBrush="#26C281"
+					VerticalAlignment="Stretch"
+					HorizontalAlignment="Stretch"
+					Style="{StaticResource StyleTextBoxDark}"
+					Height="120" LostFocus="TextBoxUserStataus_LostFocus"/>
+				<Button toolkit:TiltEffect.IsTiltEnabled="True"
+					   Grid.Row="0" Grid.Column="2"
+					   Height="80"
+						Width="80"
+					   Margin="-15, 0, -3, 0"
+					   x:Name="ShareStatusButton"
+					   Tap="ShareStatusButton_OnTap"
+						BorderThickness="0">
+					<Button.Background>
+						<ImageBrush ImageSource="/Assets/UIImages/shareicon.png"
+									Stretch="Fill"
+									></ImageBrush>
+					</Button.Background>
+				</Button>
+				<TextBlock x:Name="TextBlockNameOfUser"
+					Grid.Row="2" Grid.Column="0" Style="{StaticResource StyleTextBlockDark}"
+					HorizontalAlignment="Center"
+					Text="User Name"
+					Margin="-13" />
+			</Grid>
+
+			<Grid Grid.Row="1" x:Name="GridStatistics"
+				  Margin="10, 20"
+				  HorizontalAlignment="Stretch">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+				</Grid.RowDefinitions>
+
+				<TextBlock Grid.ColumnSpan="3"
+					Text="TÌNH HÌNH HỌC TẬP"
+					Style="{StaticResource PhoneTextLargeStyle}"
+					FontFamily="{StaticResource PhoneFontFamilyBold}"
+					Foreground="Black"
+					HorizontalAlignment="Center"
+					Margin="0, 0, 0, 15"/>
+
+				<!-- Current lesson -->
+				<Grid Grid.Row="1"
+					  Tap="Grid_Tap"
+					  Margin="0, 0, 0, 20"
+					  HorizontalAlignment="Stretch">
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="95" />
+						<ColumnDefinition Width="*" />
+					</Grid.ColumnDefinitions>
+					<Image Source="/Assets/UIImages/Icons/lessons.png"
+						   Height="50"
+						   Margin="20, 0, 15, 0"
+						   HorizontalAlignment="Center"/>
+
+					<Grid Grid.Column="1" HorizontalAlignment="Stretch">
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto" />
+							<RowDefinition Height="*" />
+						</Grid.RowDefinitions>
+
+						<Grid Margin="20, 0,0,0">
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="Auto" />
+								<ColumnDefinition Width="*" />
+							</Grid.ColumnDefinitions>
+
+							<TextBlock Style="{StaticResource StyleTextBlockDark}"
+								   Text="Bài học hiện tại: " />
+
+							<TextBlock x:Name="TextBlockCurrentLesson"
+									   Style="{StaticResource StyleTextBlockDark}"
+									   Grid.Column="1"
+									   Text="x"
+									   Foreground="#D91E17"
+									   HorizontalAlignment="Stretch"/>
+						</Grid>
+
+						<Rectangle x:Name="ProgresNoOfsAllLesson"
+								   Grid.Row="1"
+								   Height="8"
+								   Fill="#95A5A5"
+								   RadiusX="5" RadiusY="5" 
+								   VerticalAlignment="Bottom"
+								   HorizontalAlignment="Stretch"
+								   Margin="20, 0, 0, 10"/>
+
+						<Rectangle x:Name="ProgressCurrentLesson"
+								   Grid.Row="1"
+								   Width="50"
+								   Height="8"
+								   Fill="#26C281"
+								   RadiusX="5" RadiusY="5" 
+								   VerticalAlignment="Bottom"
+								   HorizontalAlignment="Left"
+								   Margin="20, 0, 0, 10"/>
+					</Grid>
+				</Grid>
+
+				<!-- Learnt kanjis -->
+				<Grid Grid.Row="2"
+					   Tap="Grid_Tap"
+					  Margin="0, 0, 0, 20"
+					  HorizontalAlignment="Stretch">
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="95" />
+						<ColumnDefinition Width="*" />
+					</Grid.ColumnDefinitions>
+					<Image Source="/Assets/UIImages/Icons/kanjis.png"
+						   Height="50"
+						   Margin="20, 0, 15, 0"
+						   HorizontalAlignment="Center"/>
+
+					<Grid Grid.Column="1" HorizontalAlignment="Stretch">
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto" />
+							<RowDefinition Height="*" />
+						</Grid.RowDefinitions>
+
+						<Grid Margin="20, 0,0,0">
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="Auto" />
+								<ColumnDefinition Width="*" />
+							</Grid.ColumnDefinitions>
+
+							<TextBlock Style="{StaticResource StyleTextBlockDark}"
+									   Text="Số Kanji đã học: " />
+
+							<TextBlock Style="{StaticResource StyleTextBlockDark}"
+									   Grid.Row="0" Grid.Column="1"
+									   x:Name="TextBlockLearntKanjis"
+									   Text="x"
+									   Foreground="#D91E17"
+									   HorizontalAlignment="Stretch"/>
+						</Grid>
+
+						<Rectangle x:Name="ProgressNoOfAllKanjis"
+								   Grid.Row="1"
+								   Height="8"
+								   Fill="#95A5A5"
+								   RadiusX="5" RadiusY="5" 
+								   VerticalAlignment="Bottom"
+								   HorizontalAlignment="Stretch"
+								   Margin="20, 0, 0, 10"/>
+
+						<Rectangle x:Name="ProgressLearntKanjis" Grid.Row="1"
+								   Width="50"
+								   Height="8"
+								   Fill="#F6AB36"
+								   RadiusX="5" RadiusY="5" 
+								   VerticalAlignment="Bottom"
+								   HorizontalAlignment="Left"
+								   Margin="20, 0, 0, 10"/>
+					</Grid>
+				</Grid>
+
+				<Grid Grid.Row="3" HorizontalAlignment="Center">
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="Auto" />
+						<ColumnDefinition Width="Auto" />
+					</Grid.ColumnDefinitions>
+
+					<TextBlock HorizontalAlignment="Center"
+							   Style="{StaticResource StyleTextBlockDark}"
+							   Text="Tổng số từ vựng bạn đã học là: "
+							   VerticalAlignment="Center"/>
+
+					<TextBlock Grid.Column="1"
+							   x:Name="TextBlockLeartWords"
+							   FontWeight="Bold"
+							   Style="{StaticResource PhoneTextLargeStyle}"
+							   Text="X"
+							   Foreground="#EF4836"></TextBlock>
+				</Grid>
+
+			</Grid>
+		</Grid>
+		<!-- Maruko and "Tips and tricks" -->
+		<Grid Grid.Row="1" x:Name="GridMarukoImage" RenderTransformOrigin="0.5,0.5">
+			<Grid.RenderTransform>
+				<CompositeTransform/>
+			</Grid.RenderTransform>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="150" />
+				<ColumnDefinition Width="*" />
+			</Grid.ColumnDefinitions>
+
+
+			<Image HorizontalAlignment="Stretch" 
+				VerticalAlignment="Bottom" 
+				Source="/Assets/UIImages/Maruko/sing.png"
+				   RenderTransformOrigin="0.1 1">
+			   <Image.RenderTransform>
+				   <ScaleTransform ScaleX="1.2" ScaleY="1.2" />
+			   </Image.RenderTransform>
+			</Image>
+
+			<Grid x:Name="grid" Grid.Column="1" 
+				HorizontalAlignment="Stretch" 
+				VerticalAlignment="Bottom"
+				Margin="0, 3, 0, 180" RenderTransformOrigin="0.5,0.5">
+				<Grid.RenderTransform>
+					<CompositeTransform/>
+				</Grid.RenderTransform>
+
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="16"/>
+					<ColumnDefinition Width="*"/>
+				</Grid.ColumnDefinitions>
+
+				<Polyline Points="16,0 16,16 0,16 16,0"
+					StrokeThickness="0"
+					Fill="#FFD036"
+					HorizontalAlignment="Right"
+					Margin="0,50,0,0" />
+
+				<Rectangle Grid.Column="1" 
+					HorizontalAlignment="Stretch" 
+					VerticalAlignment="Top"
+					Margin="0, 10, 0, 0"
+					Height="80"
+					Fill="#FFD036" />
+
+				<TextBlock  Grid.Column="1" 
+					Style="{StaticResource StyleTextBlockDark}"
+					HorizontalAlignment="Stretch" 
+					VerticalAlignment="Top" 
+					Margin="10, 10, 10, 10"
+					Text="はじめ まして！お元気？いっしょうに日本語を勉強しましょう！"/>
+			</Grid>
+		</Grid>
+	</Grid>
+</UserControl>

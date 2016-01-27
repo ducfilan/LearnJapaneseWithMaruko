@@ -1,0 +1,35 @@
+﻿<JapToVie:JvDictWord 
+    xmlns:JapToVie="clr-namespace:Hoc_tieng_Nhat_cung_Maruko.Model.Dictionary.JapToVie" 
+                   Term="あい">
+	<JapToVie:JvDictWord.Definitions>
+        <JapToVie:JvDefinition Meaning="tình yêu; tình cảm" Type="n, n-suf">
+			<JapToVie:JvDefinition.Examples>
+                <JapToVie:Example ExMeaning="tình yêu của người cha" ExSentence="〜の父性愛"/>
+                <JapToVie:Example ExMeaning="tình yêu bao la đối với" ExSentence="〜に対する大きな愛"/>
+                <JapToVie:Example ExMeaning="tình yêu vô bờ bến đối với" ExSentence="〜に対する異常な愛"/>
+                <JapToVie:Example ExMeaning="tình yêu đối với ai đó" ExSentence="〜に対する愛"/>
+                <JapToVie:Example ExMeaning="nhớ cách nói từ 'yêu' trong một số ngôn ngữ" ExSentence="いくつかの言語で「愛」を意味する単語を覚える"/>
+			</JapToVie:JvDefinition.Examples>
+            <JapToVie:JvDefinition.KanjiInDict>
+                <JapToVie:KanjiInDict KanjiMeaning="ÁI" KanjiWord="愛"/>
+			</JapToVie:JvDefinition.KanjiInDict>
+        </JapToVie:JvDefinition> 
+        <JapToVie:JvDefinition Meaning="cùng nhau; ổn định; hòa hợp" Type="pref">
+			<JapToVie:JvDefinition.Examples>
+			</JapToVie:JvDefinition.Examples>
+            <JapToVie:JvDefinition.KanjiInDict>
+                <JapToVie:KanjiInDict KanjiMeaning="" KanjiWord="相"/>
+			</JapToVie:JvDefinition.KanjiInDict>
+		</JapToVie:JvDefinition>
+        <JapToVie:JvDefinition Meaning="màu chàm" Type="n">
+            <JapToVie:JvDefinition.Examples>
+                <JapToVie:Example ExMeaning="đôi mắt màu xanh lục" ExSentence="藍色の目"/>
+                <JapToVie:Example ExMeaning="đôi mắt màu xanh lục" ExSentence="藍色被せガラス"/>
+            </JapToVie:JvDefinition.Examples>
+            <JapToVie:JvDefinition.KanjiInDict>
+                <JapToVie:KanjiInDict KanjiMeaning="LAM" KanjiWord="藍"/>
+            </JapToVie:JvDefinition.KanjiInDict>
+        </JapToVie:JvDefinition>
+       
+	</JapToVie:JvDictWord.Definitions>
+</JapToVie:JvDictWord>

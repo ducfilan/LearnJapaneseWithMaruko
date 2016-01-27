@@ -1,0 +1,203 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Hoc_tieng_Nhat_cung_Maruko.View.BirthdayPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="#4FC7E3">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Image Source="/Assets/UIImages/bdaycake.png" />
+
+        <phone:Pivot Grid.Row="0" HorizontalAlignment="Stretch" 
+                     Title="hát cùng Maruko nhé" 
+                     VerticalAlignment="Stretch"
+                     HeaderTemplate="{StaticResource PivotHeaderNormalTemplate}">
+            <phone:Pivot.Background>
+                <SolidColorBrush Color="#213140" Opacity="0.6" />
+            </phone:Pivot.Background>
+            <phone:PivotItem CacheMode="{x:Null}" Header="nhật">
+                <ScrollViewer VerticalAlignment="Stretch" Margin="0, -25, 0, 0">
+                    <TextBlock Style="{StaticResource StyleTextBlockLight}"
+                               HorizontalAlignment="Center"
+                               FontSize="{StaticResource PhoneFontSizeMedium}"
+                               Margin="10"
+                               TextAlignment="Center">
+                        なんでもかんでも みんな<LineBreak/>
+                        おどりをおどっているよ<LineBreak/>
+                        おなべの中から ボワっと<LineBreak/>
+                        インチキおじさん 登場<LineBreak/>
+                        いつだって わすれない<LineBreak/>
+                        エジソンは えらい人<LineBreak/>
+                        そんなの 常識 タッタタラリラ<LineBreak/>
+                        ピーヒャラ ピーヒャラ パッパパラパ<LineBreak/>
+                        ピーヒャラ ピーヒャラ パッパパラパ<LineBreak/>
+                        ピーヒャラ ピーヒャラ おへそがちらり<LineBreak/>
+                        タッタタラリラ<LineBreak/>
+                        ピーヒャラ ピーヒャラ パッパパラパ<LineBreak/>
+                        ピーヒャラ ピーヒャラ おどるポンポコリン<LineBreak/>
+                        ピーヒャラ ピ お腹がへったよ<LineBreak/>
+                        <LineBreak/>
+                        あの子も この子も みんな<LineBreak/>
+                        いそいで 歩いているよ<LineBreak/>
+                        でんしんばしらの かげから<LineBreak/>
+                        お笑い芸人 登場<LineBreak/>
+                        いつだって 迷わない<LineBreak/>
+                        キヨスクは 駅の中<LineBreak/>
+                        そんなの 有名 タッタタラリラ<LineBreak/>
+                        ピーヒャラ ピーヒャラ パッパパラパ<LineBreak/>
+                        ピーヒャラ ピーヒャラ パッパパラパ<LineBreak/>
+                        ピーヒャラ ピーヒャラ ニンジンいらない<LineBreak/>
+                        タッタタラリラ<LineBreak/>
+                        ピーヒャラ ピーヒャラ パッパパラパ<LineBreak/>
+                        ピーヒャラ ピーヒャラ おどるポンポコリン<LineBreak/>
+                        ピーヒャラ ピ ブタのプータロー&#x0d;
+                        <LineBreak/>
+                        いつだって わすれない<LineBreak/>
+                        エジソンは えらい人<LineBreak/>
+                        そんなの 常識 タッタタラリラ<LineBreak/>
+                        ピーヒャラ ピーヒャラ パッパパラパ<LineBreak/>
+                        ピーヒャラ ピーヒャラ パッパパラパ<LineBreak/>
+                        ピーヒャラ ピーヒャラ おへそがちらり<LineBreak/>
+                        タッタタラリラ<LineBreak/>
+                        ピーヒャラ ピーヒャラ パッパパラパ<LineBreak/>
+                        ピーヒャラ ピーヒャラ おどるポンポコリン<LineBreak/>
+                        ピーヒャラ ピ お腹がへったよ<LineBreak/>
+                        <LineBreak/>
+                        ピーヒャラ ピーヒャラ パッパパラパ<LineBreak/>
+                        ピーヒャラ ピーヒャラ おどるポンポコリン<LineBreak/>
+                        ピーヒャラ ピ お腹がへったよ<LineBreak/>
+                    </TextBlock>
+                </ScrollViewer>
+            </phone:PivotItem>
+            <phone:PivotItem CacheMode="{x:Null}" Header="romaji">
+                <ScrollViewer VerticalAlignment="Stretch" Margin="0, -25, 0, 0">
+                    <TextBlock Style="{StaticResource StyleTextBlockLight}"
+                               HorizontalAlignment="Center"
+                               FontSize="{StaticResource PhoneFontSizeLarge}"
+                               Margin="10"
+                               TextAlignment="Center">
+                        Nan demo kan demo minna<LineBreak/>
+                        Odori wo odotte iru yo<LineBreak/>
+                        Onabe no naka kara bowa tto<LineBreak/>
+                        Inchiki oji-san toujou<LineBreak/>
+                        Itsu datte wasurenai<LineBreak/>
+                        Ejison wa erai hito<LineBreak/>
+                        Sonna no joushiki tattatararira<LineBreak/>
+                        <LineBreak/>
+                        Piihyara piihyara<LineBreak/>
+                        Pappaparapa<LineBreak/>
+                        Piihyara piihyara<LineBreak/>
+                        Pappaparapa<LineBreak/>
+                        Piihyara pihyara<LineBreak/>
+                        O heso ga chirari<LineBreak/>
+                        Tattatararira<LineBreak/>
+                        Piihyara piihyara<LineBreak/>
+                        Pappaparapa<LineBreak/>
+                        Piihyara piihyara<LineBreak/>
+                        Odoru ponpokorin<LineBreak/>
+                        Piihyara pii onaka ga hetta yo<LineBreak/>
+                        Ano ko mo kono ko mo minna<LineBreak/>
+                        Isoide aruite iru yo<LineBreak/>
+                        Denshinba shira no kage kara<LineBreak/>
+                        O warai geinin toujou<LineBreak/>
+                        Itsu datte mayowanai<LineBreak/>
+                        Kiesuka wa eki no naka<LineBreak/>
+                        Sonna no yuumei tattatararira<LineBreak/>
+                        Piihyara piihyara<LineBreak/>
+                        Odoru Ponpokorin lyrics on<LineBreak/>
+                        Pappaparapa<LineBreak/>
+                        Piihyara piihyara<LineBreak/>
+                        Pappaparapa<LineBreak/>
+                        Piihyara piihyara<LineBreak/>
+                        Ninjin iranai<LineBreak/>
+                        Tattatararira<LineBreak/>
+                        Piihyara piihyara<LineBreak/>
+                        Pappaparapa<LineBreak/>
+                        Piihyara piihyara<LineBreak/>
+                        Odoru ponpokorin<LineBreak/>
+                        <LineBreak/>
+                        Piihyara pii buta no buutarou<LineBreak/>
+                        Itsu datte wasurenai<LineBreak/>
+                        Ejison wa erai hito<LineBreak/>
+                        Sonna no joushiki<LineBreak/>
+                        Tattatararira<LineBreak/>
+                        Piihyara piihyara<LineBreak/>
+                        Pappaparapa<LineBreak/>
+                        Piihyara piihyara<LineBreak/>
+                        Pappaparapa<LineBreak/>
+                        Piihyara piihyara<LineBreak/>
+                        O heso ga chirari<LineBreak/>
+                        Tattatararira<LineBreak/>
+                        Piihyara piihyara<LineBreak/>
+                        Pappaparapa<LineBreak/>
+                        Piihyara piihyara<LineBreak/>
+                        Odoru ponpokorin<LineBreak/>
+                        Piihyara pii onaka ga hetta yo<LineBreak/>
+                        Piihyara piihyara<LineBreak/>
+                        Pappaparapa<LineBreak/>
+                        Piihyara piihyara<LineBreak/>
+                        Odoru ponpokorin<LineBreak/>
+                        Piihyara pii onaka ga hetta yo<LineBreak/>
+                    </TextBlock>
+                </ScrollViewer>
+            </phone:PivotItem>
+        </phone:Pivot>
+
+        <Grid Grid.Row="1" VerticalAlignment="Bottom"
+              Margin="0, 10, 0, -5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Image x:Name="ImageMarukoSingBigMouth"
+                    Grid.Column="0" Source="/Assets/UIImages/Maruko/singbigmouth.png"
+                    Width="250"
+                    Height="250"
+                    Margin="0, 0, 0, -10"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom"/>
+
+            <Image x:Name="ImageMarukoSingSmallMouth"
+                    Grid.Column="0" Source="/Assets/UIImages/Maruko/singsmallmouth.png"
+                    Width="250"
+                    Height="250"
+                    Margin="0, 0, 0, -10"
+                    Opacity="0"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom"/>
+            
+            <Border Grid.Column="1"
+                            Width="250"
+                            Height="150"
+                            Margin="-20, 0, 0, 120"
+                            HorizontalAlignment="Left">
+                <Border.Background>
+                    <ImageBrush ImageSource="/Assets/UIImages/speech bubble.png" />
+                </Border.Background>
+                <TextBlock Text="誕生日おめでとう! Maruko chúc bạn luôn mạnh khỏe, gặp nhiều may mắn, và đặc biệt là học thật tốt tiếng Nhật!" 
+                           Width="200"
+                           Style="{StaticResource StyleTextBlockDark}"
+                                   Margin="12, 15, -12, 0"/>
+            </Border>
+        </Grid>
+        <MediaElement Grid.Row="0" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"
+                      x:Name="MediaElementMarukoSong"
+                      Source="/Assets/marukosong.mp3"/>
+        
+    </Grid>
+
+</phone:PhoneApplicationPage>

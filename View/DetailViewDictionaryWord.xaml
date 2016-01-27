@@ -1,0 +1,213 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Hoc_tieng_Nhat_cung_Maruko.View.DetailViewDictionaryWord"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:converters="clr-namespace:Hoc_tieng_Nhat_cung_Maruko.AddtionalHelpers.Converters"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False"
+    d:DataContext="{d:DesignData /SampleData/DictWordSampleData.xaml}">
+
+    <phone:PhoneApplicationPage.Resources>
+        <converters:LengthConverter x:Key="LengthConverter"/>
+    </phone:PhoneApplicationPage.Resources>
+    <Border>
+        <Border.Background>
+            <SolidColorBrush Color="#FFFFFF" Opacity="0.8"></SolidColorBrush>
+        </Border.Background>
+        <!--LayoutRoot is the root grid where all page content is placed-->
+        <Grid x:Name="LayoutRoot" Background="#F6AB36">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Margin="0,0,0,0"
+                    Background="#1BBC9B">
+
+                <TextBlock Text="{Binding Term}" Margin="0,-7,0,0" 
+                       Style="{StaticResource PhoneTextTitle1Style}"
+                       HorizontalAlignment="Center"
+                       FontFamily="{StaticResource PhoneFontFamilyLight}"
+                           FontSize="{StaticResource PhoneFontSizeExtraLarge}"/>
+            </Grid>
+
+            <Image Grid.Row="1" Source="/Assets/UIImages/shadow.png"
+               Margin="0, -7, 0, 0"/>
+
+            <!--ContentPanel - place additional content here-->
+            <Grid x:Name="ContentPanel" Grid.Row="2" Margin="12,0,0,0">
+                <phone:LongListSelector 
+                    ItemsSource="{Binding Definitions}">
+                    <phone:LongListSelector.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Margin="0, 10, 0, 0">
+                                <Grid Background="#ABB7B7"
+                                      HorizontalAlignment="Stretch"
+                                      VerticalAlignment="Stretch" 
+                                      Margin="10, 30, 2, 23"
+                                      Opacity="0.8"/>
+                                <Grid Background="#FFFFFF"
+                                      Margin="0, 20, 10, 30" 
+                                      HorizontalAlignment="Stretch">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Border Margin="10, 25, 10, 10"
+                                            x:Name="BorderKajiTerm"
+                                            Background="#00B169">
+                                        <TextBlock x:Name="TextBlockKanjiTerm" 
+                                                   FontFamily="Meiryo"
+                                                   VerticalAlignment="Center"
+                                                   HorizontalAlignment="Center"
+                                                   FontSize="{StaticResource PhoneFontSizeLarge}"
+                                                   Text="{Binding KanjiInDict.KanjiWord}"
+                                                   Foreground="#FFFFFF"
+                                                   Tap="TextBlockKanjiTerm_OnTap"/>
+                                    </Border>
+                                    <Border  Grid.Row="0" Grid.Column="1" 
+                                             Margin="10, 25, 10, 10"
+                                            Background="#00B169">
+                                        <TextBlock
+                                           Style="{StaticResource StyleTextBlockDark}"
+                                                   VerticalAlignment="Center"
+                                                   HorizontalAlignment="Center"
+                                           Text="{Binding Type}"
+                                           Foreground="#FFFFFF"/>
+                                    </Border>
+                                    <Border   Grid.Row="0" Grid.Column="2"
+                                             Margin="10, 25, 10, 10"
+                                            Background="#00B169">
+                                        <TextBlock
+                                           Style="{StaticResource StyleTextBlockDark}"
+                                                   VerticalAlignment="Center"
+                                                   HorizontalAlignment="Center"
+                                           Text="{Binding KanjiInDict.KanjiMeaning}"
+                                           Foreground="#FFFFFF"
+                                            FontFamily="{StaticResource PhoneFontFamilySemiBold}"
+                                            FontSize="{StaticResource PhoneFontSizeMedium}"/>
+                                    </Border>
+
+                                    <phone:LongListSelector Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3"
+                                                        ItemsSource="{Binding Examples}"
+                                                        Foreground="#34495E" Margin="0,0,10,0"
+                                                            Visibility="{Binding Examples.Count, Converter={StaticResource LengthConverter}}">
+                                        <phone:LongListSelector.ItemTemplate>
+                                            <DataTemplate>
+                                                <Grid HorizontalAlignment="Stretch">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="Auto" />
+                                                        <ColumnDefinition Width="*" />
+                                                    </Grid.ColumnDefinitions>
+                                                    <Grid.RowDefinitions>
+                                                        <RowDefinition Height="Auto" />
+                                                        <RowDefinition Height="Auto" />
+                                                        <RowDefinition Height="Auto" />
+                                                    </Grid.RowDefinitions>
+                                                    <Rectangle Width="10" Height="10"
+                                                               Fill="#00B169" 
+                                                               Margin="10"/>
+
+                                                    <TextBlock Grid.Row="0" Grid.Column="1" 
+                                                           Text="{Binding ExSentence}" 
+                                                           HorizontalAlignment="Stretch"
+                                                           TextWrapping="Wrap"
+                                                               FontWeight="SemiBold"
+                                                               Foreground="#1F3A93">
+                                                        <toolkit:GestureService.GestureListener>
+                                                            <toolkit:GestureListener Hold="TapAndHoldGesture" />
+                                                        </toolkit:GestureService.GestureListener>
+                                                    </TextBlock>
+                                                    <TextBlock Grid.Row="1" Grid.Column="1"
+                                                           Margin="15, 0, 0, 5"
+                                                           Text="{Binding ExMeaning}" 
+                                                           HorizontalAlignment="Stretch"
+                                                           TextWrapping="Wrap"
+                                                               FontWeight="Light"
+                                                               Foreground="#EB9532"/>
+                                                </Grid>
+                                            </DataTemplate>
+
+                                        </phone:LongListSelector.ItemTemplate>
+                                    </phone:LongListSelector>
+                                </Grid>
+                                <Border Background="#D91E17" Width="400" Height="50"
+                                        VerticalAlignment="Top"
+                                        Margin="0, -10, 0, 0">
+                                    <TextBlock Text="{Binding Meaning}" 
+                                               VerticalAlignment="Center"
+                                               HorizontalAlignment="Center"
+                                               TextWrapping="Wrap"/>
+                                </Border>
+
+                                <Polyline Grid.Row="0" Points="0,30 12,0 12,30 0,30"
+                                            StrokeThickness="0"
+                                            Fill="#ABB7B7"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Top" 
+                                           Margin="-412, -10, 0, 10"/>
+                            </Grid>
+                        </DataTemplate>
+                    </phone:LongListSelector.ItemTemplate>
+                </phone:LongListSelector>
+                <Grid Grid.Row="0" HorizontalAlignment="Stretch"
+                          Margin="-15, -1500, -15, 0"
+                          x:Name="GridGuideUser"
+                          Tap="GridGuideUser_OnTap"
+                          Visibility="Collapsed">
+                    <Grid.Background>
+                        <SolidColorBrush Color="Black"
+                                             Opacity="0.5" />
+                    </Grid.Background>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image Source="/Assets/UIImages/Maruko/thinking.png" 
+                                           Height="200"
+                                           x:Name="ImageMarukoGuide"
+                                           VerticalAlignment="Bottom"
+                                           HorizontalAlignment="Right"
+                                           Margin="0, 0, 0, -12"
+                                           RenderTransformOrigin="0.5, 0.5">
+                        <Image.RenderTransform >
+                            <ScaleTransform ScaleX="-1"></ScaleTransform>
+                        </Image.RenderTransform>
+                    </Image>
+
+                    <Border Grid.Column="1"
+                                        Width="270"
+                                        Height="120"
+                                        Margin="-30, 0, 0, 120"
+                                        VerticalAlignment="Bottom"
+                                        HorizontalAlignment="Left">
+                        <Border.Background>
+                            <ImageBrush ImageSource="/Assets/UIImages/speech bubble color.png" />
+                        </Border.Background>
+                        <TextBlock Text="Ấn và giữ vào các ví dụ để nghe phát âm, chọn từ kanji trong ô màu xanh lá để tra cứu bạn nhé!" 
+                                               Width="225"
+                                               x:Name="TextBlockMarukoGuideSpeech"
+                                               Style="{StaticResource StyleTextBlockLight}"
+                                               Margin="30, 10, 5, 0"/>
+                    </Border>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Border>
+</phone:PhoneApplicationPage>

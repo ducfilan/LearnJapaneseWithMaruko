@@ -1,0 +1,386 @@
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\LearningJapaneseWithMaruko.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\LearningJapaneseWithMaruko.pdb
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ja\LearningJapaneseWithMaruko.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\vi-VN\LearningJapaneseWithMaruko.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\AppManifest.xaml
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Properties\WMAppManifest.xml
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\AmCharts.Windows.QuickCharts.WP.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ICSharpCode.SharpZLib.Phone.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.Controls.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.Filtering.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.IO.Bmp.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.IO.Gif.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.IO.Png.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.Utils.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Microsoft.Phone.Controls.Toolkit.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\PhoneCodeContractsAssemblies.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Sqlite.winmd
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Sqlite.pdb
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ICSharpCode.SharpZLib.Phone.pdb
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.pdb
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.xml
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.Controls.pdb
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.Controls.xml
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.Filtering.pdb
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.Filtering.xml
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.IO.Bmp.pdb
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.IO.Bmp.xml
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.IO.Gif.pdb
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.IO.Gif.xml
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.IO.Png.pdb
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.IO.Png.xml
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.Utils.pdb
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ImageTools.Utils.xml
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\PhoneCodeContractsAssemblies.pdb
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\Hoc tieng Nhat cung Maruko.csprojResolveAssemblyReference.cache
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\App.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\AlphabetSection\FuriganaList.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\Chart.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\DetailViewDictionaryWord.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\GrammarSection\GrammarDetail.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\GrammarSection\GrammarList.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\KanjiSection\KanjiDetailView.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\KanjiSection\KanjisListView.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\Music.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\SettingsPage.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\SplashPage.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\UserControls\Conversation.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\UserControls\CustomLongListItemUserControl.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\UserControls\CustomMessageBoxControl.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\UserControls\DictionaryJv.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\UserControls\Friendship.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\MainPage.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\WordSection\LessonListView.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\WordSection\WordDetail.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\WordSection\WordList.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\LearningJapaneseWithMaruko.g.resources
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\Hoc_tieng_Nhat_cung_Maruko.Resources.AppResources.resources
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\Hoc_tieng_Nhat_cung_Maruko.Resources.AppResources.ja.resources
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\Hoc_tieng_Nhat_cung_Maruko.Resources.AppResources.vi-VN.resources
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\Hoc tieng Nhat cung Maruko.csproj.GenerateResource.Cache
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\ja\LearningJapaneseWithMaruko.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\vi-VN\LearningJapaneseWithMaruko.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\LearningJapaneseWithMaruko.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\LearningJapaneseWithMaruko.pdb
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\XapCacheFile.xml
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Học tiếng Nhật cùng Maruko Release_ARM.xap
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\RateMyApp.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ar-SA\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\de-DE\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\en-GB\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\en-US\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\es-ES\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\fi-FI\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\fr-FR\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\he-IL\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\hr-HR\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\hu-HU\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\it-IT\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\lt-LT\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\nb-NO\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\nl-NL\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\pl-PL\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\pt-BR\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\pt-PT\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ro-RO\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\ru-RU\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\sl-SI\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\sv-SE\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\uk-UA\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\vi-VN\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\zh-CN\RateMyApp.resources.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\BirthdayPage.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Assets\Database.txt
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\FirstTimeUse.g.cs
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Cimbalino.Phone.Toolkit.Background.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Cimbalino.Phone.Toolkit.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\GalaSoft.MvvmLight.Extras.WP8.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\GalaSoft.MvvmLight.WP8.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Microsoft.Practices.ServiceLocation.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\System.Windows.Interactivity.dll
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Cimbalino.Phone.Toolkit.pdb
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Cimbalino.Phone.Toolkit.xml
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Cimbalino.Phone.Toolkit.Background.pdb
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Cimbalino.Phone.Toolkit.Background.xml
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\GalaSoft.MvvmLight.Extras.WP8.pdb
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\GalaSoft.MvvmLight.Extras.WP8.xml
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\GalaSoft.MvvmLight.WP8.pdb
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\GalaSoft.MvvmLight.WP8.xml
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Microsoft.Practices.ServiceLocation.xml
+d:\data\documents\visual studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\About.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\CustomMessageBox.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Assets\UIImages\left.png
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Assets\Maruko.db3
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Assets\MarukoDict.db3
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\TestSection\TestListening.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\TestSection\MainTest.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\TestSection\TestMultiChoice.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\obj\ARM\Release\View\TestSection\TestWriting.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Telerik.Windows.Controls.Data.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Telerik.Windows.Controls.DataVisualization.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Telerik.Windows.Controls.Input.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Telerik.Windows.Controls.Primitives.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Telerik.Windows.Core.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Telerik.Windows.Data.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Telerik.Windows.Controls.Data.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Telerik.Windows.Controls.Data.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Telerik.Windows.Controls.DataVisualization.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Telerik.Windows.Controls.DataVisualization.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Telerik.Windows.Controls.Input.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Telerik.Windows.Controls.Input.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Telerik.Windows.Controls.Primitives.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Telerik.Windows.Controls.Primitives.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Telerik.Windows.Core.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Telerik.Windows.Core.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Telerik.Windows.Data.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\Telerik.Windows.Data.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\de-DE\Telerik.Windows.Controls.Input.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\fr-FR\Telerik.Windows.Controls.Input.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\it-IT\Telerik.Windows.Controls.Input.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\de-DE\Telerik.Windows.Controls.Primitives.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\fr-FR\Telerik.Windows.Controls.Primitives.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\Học tiếng Nhật cùng Maruko\Bin\ARM\Release\it-IT\Telerik.Windows.Controls.Primitives.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Assets\UIImages\left.png
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Assets\Database.txt
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Assets\Maruko.db3
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Assets\MarukoDict.db3
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\LearningJapaneseWithMaruko.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\LearningJapaneseWithMaruko.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ja\LearningJapaneseWithMaruko.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\vi-VN\LearningJapaneseWithMaruko.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\AppManifest.xaml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Properties\WMAppManifest.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Học tiếng Nhật cùng Maruko Release_ARM.xap
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\AmCharts.Windows.QuickCharts.WP.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Cimbalino.Phone.Toolkit.Background.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Cimbalino.Phone.Toolkit.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\GalaSoft.MvvmLight.Extras.WP8.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\GalaSoft.MvvmLight.WP8.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.Controls.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.Filtering.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.IO.Bmp.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.IO.Gif.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.IO.Png.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.Utils.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Microsoft.Phone.Controls.Toolkit.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Microsoft.Practices.ServiceLocation.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\PhoneCodeContractsAssemblies.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\RateMyApp.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Sqlite.winmd
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\System.Windows.Interactivity.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Telerik.Windows.Controls.Data.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Telerik.Windows.Controls.DataVisualization.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Telerik.Windows.Controls.Input.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Telerik.Windows.Controls.Primitives.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Telerik.Windows.Core.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Telerik.Windows.Data.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ICSharpCode.SharpZLib.Phone.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Sqlite.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Cimbalino.Phone.Toolkit.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Cimbalino.Phone.Toolkit.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Cimbalino.Phone.Toolkit.Background.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Cimbalino.Phone.Toolkit.Background.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\GalaSoft.MvvmLight.Extras.WP8.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\GalaSoft.MvvmLight.Extras.WP8.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\GalaSoft.MvvmLight.WP8.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\GalaSoft.MvvmLight.WP8.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.Controls.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.Controls.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.Filtering.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.Filtering.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.IO.Bmp.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.IO.Bmp.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.IO.Gif.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.IO.Gif.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.IO.Png.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.IO.Png.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.Utils.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ImageTools.Utils.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Microsoft.Practices.ServiceLocation.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\PhoneCodeContractsAssemblies.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Telerik.Windows.Controls.Data.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Telerik.Windows.Controls.Data.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Telerik.Windows.Controls.DataVisualization.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Telerik.Windows.Controls.DataVisualization.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Telerik.Windows.Controls.Input.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Telerik.Windows.Controls.Input.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Telerik.Windows.Controls.Primitives.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Telerik.Windows.Controls.Primitives.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Telerik.Windows.Core.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Telerik.Windows.Core.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Telerik.Windows.Data.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\Telerik.Windows.Data.xml
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ICSharpCode.SharpZLib.Phone.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ar-SA\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\de-DE\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\en-GB\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\en-US\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\es-ES\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\fi-FI\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\fr-FR\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\he-IL\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\hr-HR\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\hu-HU\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\it-IT\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\lt-LT\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\nb-NO\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\nl-NL\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\pl-PL\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\pt-BR\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\pt-PT\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ro-RO\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\ru-RU\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\sl-SI\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\sv-SE\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\uk-UA\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\vi-VN\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\zh-CN\RateMyApp.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\de-DE\Telerik.Windows.Controls.Input.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\fr-FR\Telerik.Windows.Controls.Input.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\it-IT\Telerik.Windows.Controls.Input.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\de-DE\Telerik.Windows.Controls.Primitives.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\fr-FR\Telerik.Windows.Controls.Primitives.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\Bin\ARM\Release\it-IT\Telerik.Windows.Controls.Primitives.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\Hoc tieng Nhat cung Maruko.csprojResolveAssemblyReference.cache
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\App.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\CustomMessageBox.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\TestSection\TestListening.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\About.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\FirstTimeUse.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\AlphabetSection\FuriganaList.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\BirthdayPage.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\Chart.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\DetailViewDictionaryWord.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\GrammarSection\GrammarDetail.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\GrammarSection\GrammarList.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\KanjiSection\KanjiDetailView.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\KanjiSection\KanjisListView.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\TestSection\MainTest.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\Music.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\SettingsPage.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\SplashPage.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\TestSection\TestMultiChoice.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\TestSection\TestWriting.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\UserControls\Conversation.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\UserControls\CustomLongListItemUserControl.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\UserControls\CustomMessageBoxControl.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\UserControls\DictionaryJv.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\UserControls\Friendship.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\MainPage.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\WordSection\LessonListView.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\WordSection\WordDetail.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\View\WordSection\WordList.g.cs
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\LearningJapaneseWithMaruko.g.resources
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\Hoc_tieng_Nhat_cung_Maruko.Resources.AppResources.resources
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\Hoc_tieng_Nhat_cung_Maruko.Resources.AppResources.ja.resources
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\Hoc_tieng_Nhat_cung_Maruko.Resources.AppResources.vi-VN.resources
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\Hoc tieng Nhat cung Maruko.csproj.GenerateResource.Cache
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\ja\LearningJapaneseWithMaruko.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\vi-VN\LearningJapaneseWithMaruko.resources.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\LearningJapaneseWithMaruko.dll
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\LearningJapaneseWithMaruko.pdb
+D:\DATA\Documents\Visual Studio 2013\Projects\HocTiengNhatCungMaruko\HocTiengNhatCungMaruko\obj\ARM\Release\XapCacheFile.xml

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProfilerSession Type="ExecutionPerformanceAnalysis" Name="Hoc tieng Nhat cung Maruko2175863350">
+  <TargetApplication Name="Học tiếng Nhật cùng Maruko Release_ARM" SourceProject="Hoc tieng Nhat cung Maruko.csproj" Type="WindowsPhoneHybrid">
+    <ApplicationBinary Path="Bin\x86\Release\Học tiếng Nhật cùng Maruko Release_ARM.xap" Timestamp="14-Aug-14 12:06:00 PM" />
+    <ApplicationIconPath Path="" />
+    <SymbolPaths>
+      <Path Value="Bin\x86\Release\" />
+    </SymbolPaths>
+  </TargetApplication>
+  <Settings>
+    <Probe Name="Visual">
+      <CollectElementLevelCosting Enabled="True" />
+      <CollectSnapshots Enabled="True" Interval="1000" Resampling="2" />
+      <CollectMediaEvents Enabled="False" />
+      <CollectCacheDetails Enabled="False" />
+    </Probe>
+    <Probe Name="Code">
+      <SampleCallStack Enabled="True" Depth="4294967295" Interval="10" />
+      <CollectPerformanceCounters Enabled="False" />
+    </Probe>
+    <Probe Name="Memory">
+      <MemoryCallStack Enabled="True" Depth="8" />
+      <ObjectTree Enabled="True" Interval="5" />
+    </Probe>
+  </Settings>
+  <Data>
+    <Logs>
+      <File Type="NativeFormat" Path="PerfLogs\Hoc tieng Nhat cung Maruko2175863350\Hoc_tieng_Nhat_cung_Maruko_2014_08_16_09_21_03.vspx" />
+    </Logs>
+  </Data>
+  <TargetDeviceSettings OSVersion="8.10.12358" AvailablePhysicalMemoryAtStartup="0" ProcessorArchitectureType="Intel" ProcessorInformation="X86" IsEmulator="True" />
+</ProfilerSession>

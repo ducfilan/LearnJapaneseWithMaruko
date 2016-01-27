@@ -1,0 +1,99 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Hoc_tieng_Nhat_cung_Maruko.View.WordSection.LessonList"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:converters="clr-namespace:Hoc_tieng_Nhat_cung_Maruko.AddtionalHelpers.Converters"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:googleAds="clr-namespace:GoogleAds;assembly=GoogleAds"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    d:DataContext="{d:DesignData /SampleData/LessonsListSampleData.xaml}"
+    shell:SystemTray.IsVisible="True">
+    <phone:PhoneApplicationPage.Resources>
+        <converters:LessonNameConverter x:Key="LessonNameConverter"/>
+        <converters:LessonImagePathConverter x:Key="LessonImagePathConverter"/>
+        <!--<converters:LessonWordsToRandomWordConverter x:Key="LessonWordsToRandomWordConverter"/>-->
+
+        <DataTemplate x:Key="DataTemplateLessonsList">
+            <Grid Margin="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <toolkit:HubTile Title="{Binding LessonNumber, Converter={StaticResource LessonNameConverter}}"
+                                     Source="{Binding ImagePath, Converter={StaticResource LessonImagePathConverter}}" 
+                                     Width="200"/>
+                                     <!--Message="{Binding LessonWords, Converter={StaticResource LessonWordsToRandomWordConverter}}"-->
+
+                <Polyline Grid.Row="0" Points="0,0 15,5 0,5 0,0"
+                            StrokeThickness="0"
+                            Fill="#ABB7B7"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Bottom"
+                         Margin="0, 0, 3, 10" />
+
+                <Polyline Grid.Row="0" Points="0,5 15,0 15,5 0,5"
+                            StrokeThickness="0"
+                            Fill="#ABB7B7"
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Bottom" 
+                          Margin="4, 0, 0, 10"/>
+
+                <Border Grid.Row="1" Background="#19B5FF"
+                               Margin="0, -10, 0, 0">
+                    <TextBlock Text="{Binding LessonNumber, Converter={StaticResource LessonNameConverter}}" 
+                               HorizontalAlignment="Center" />
+                </Border>
+            </Grid>
+        </DataTemplate>
+    </phone:PhoneApplicationPage.Resources>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="#FCFFE2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="0,0,0,0"
+                    Background="#1BBC9B">
+            <TextBlock Text="tất cả bài học" Margin="9,-7,0,0" 
+                       Style="{StaticResource PhoneTextTitle1Style}"
+                       FontFamily="{StaticResource PhoneFontFamilyLight}"/>
+        </StackPanel>
+        <Image Grid.Row="1" Source="/Assets/UIImages/shadow.png"
+               Margin="0, -7, 0, 0"/>
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="2" Margin="12,0,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <phone:LongListSelector x:Name="LongListSelectorLessons" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                                    ItemTemplate="{StaticResource DataTemplateLessonsList}"
+                                    LayoutMode="Grid"
+                                    GridCellSize="220, 220"
+                                    SelectionChanged="LongListSelectorLessons_SelectionChanged"
+                                    ItemsSource="{Binding Lessons}" />
+
+            <googleAds:AdView Grid.Row="1" AdUnitID="ca-app-pub-8747599647097873/5505715747"
+                                      Format="Banner"
+                                      ReceivedAd="OnAdReceived"
+                                      FailedToReceiveAd="OnFailedToReceiveAd"
+                                      VerticalAlignment="Bottom"
+                                      Margin="-10 0 -10 0"/>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>
